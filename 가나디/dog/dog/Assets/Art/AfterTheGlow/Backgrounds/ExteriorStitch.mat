@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ExteriorStitch
+  m_Shader: {fileID: 4800000, guid: a5a489effc9802f47a7d3a04256d13b9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ParkTex:
+        m_Texture: {fileID: 2800000, guid: d9a54784d44518f4cb60831531b236ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StreetTex:
+        m_Texture: {fileID: 2800000, guid: a9b525d5a2977ba4380d2dbab083c267, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Heights: {r: 6, g: -2.4677348, b: 6, a: 0.8335635}
+    - _Layout: {r: 6.6, g: 24.6, b: 18, a: -2.3765745}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

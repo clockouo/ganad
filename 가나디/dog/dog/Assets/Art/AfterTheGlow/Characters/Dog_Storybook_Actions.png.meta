@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: 983a094aadebcd44db8ba64470e56819
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1858473304586460565
+    second: Dog_Storybook_Actions_0
+  - first:
+      213: 2003775808239071883
+    second: Dog_Storybook_Actions_1
+  - first:
+      213: 7749813943689391813
+    second: Dog_Storybook_Actions_2
+  - first:
+      213: -9001678431593163559
+    second: Dog_Storybook_Actions_3
+  - first:
+      213: 4146455919370946899
+    second: Dog_Storybook_Actions_4
+  - first:
+      213: 5272247527738525552
+    second: Dog_Storybook_Actions_5
+  - first:
+      213: -5517010124894288111
+    second: Dog_Storybook_Actions_6
+  - first:
+      213: 7854308761043306348
+    second: Dog_Storybook_Actions_7
+  - first:
+      213: 5817226339983312907
+    second: Dog_Storybook_Actions_8
+  - first:
+      213: -3214562269345201708
+    second: Dog_Storybook_Actions_9
+  - first:
+      213: 5697834352945032395
+    second: Dog_Storybook_Actions_10
+  - first:
+      213: -2392507651804497516
+    second: Dog_Storybook_Actions_11
+  - first:
+      213: 6988054963129032690
+    second: Dog_Storybook_Actions_12
+  - first:
+      213: 371830589897728175
+    second: Dog_Storybook_Actions_13
+  - first:
+      213: -5651830423336523711
+    second: Dog_Storybook_Actions_14
+  - first:
+      213: 6903171381805182575
+    second: Dog_Storybook_Actions_15
+  - first:
+      213: -6924099240580877149
+    second: Dog_Storybook_Actions_16
+  - first:
+      213: 2004141593483716249
+    second: Dog_Storybook_Actions_17
+  - first:
+      213: 6395042705040303679
+    second: Dog_Storybook_Actions_18
+  - first:
+      213: 2196424227074587979
+    second: Dog_Storybook_Actions_19
+  - first:
+      213: 1604738371049612595
+    second: Dog_Storybook_Actions_20
+  - first:
+      213: -1104244071339603601
+    second: Dog_Storybook_Actions_21
+  - first:
+      213: -5897059976868042367
+    second: Dog_Storybook_Actions_22
+  - first:
+      213: 2827982672412698172
+    second: Dog_Storybook_Actions_23
+  - first:
+      213: 8887556254501625907
+    second: Dog_Storybook_Actions_24
+  - first:
+      213: 955978641432384244
+    second: Dog_Storybook_Actions_25
+  - first:
+      213: -8733902886525199725
+    second: Dog_Storybook_Actions_26
+  - first:
+      213: 5488225729245071440
+    second: Dog_Storybook_Actions_27
+  - first:
+      213: 3807079361887698867
+    second: Dog_Storybook_Actions_28
+  - first:
+      213: -3754829650705253370
+    second: Dog_Storybook_Actions_29
+  - first:
+      213: 8705770419559831120
+    second: Dog_Storybook_Actions_30
+  - first:
+      213: -3372332383905826237
+    second: Dog_Storybook_Actions_31
+  - first:
+      213: -3984089774671811601
+    second: Dog_Storybook_Actions_32
+  - first:
+      213: -9088727829485576885
+    second: Dog_Storybook_Actions_33
+  - first:
+      213: -2583067429373851341
+    second: Dog_Storybook_Actions_34
+  - first:
+      213: 3196366736466924195
+    second: Dog_Storybook_Actions_35
+  - first:
+      213: 7665724710028262659
+    second: Dog_Storybook_Actions_36
+  - first:
+      213: -4666751614876378685
+    second: Dog_Storybook_Actions_37
+  - first:
+      213: -619860395042334029
+    second: Dog_Storybook_Actions_38
+  - first:
+      213: -3354731370223665474
+    second: Dog_Storybook_Actions_39
+  - first:
+      213: -9162582731116331488
+    second: Dog_Storybook_Actions_40
+  - first:
+      213: 8913407316207069303
+    second: Dog_Storybook_Actions_41
+  - first:
+      213: -5575765846791311641
+    second: Dog_Storybook_Actions_42
+  - first:
+      213: 8962261366406251074
+    second: Dog_Storybook_Actions_43
+  - first:
+      213: 8858544843401257566
+    second: Dog_Storybook_Actions_44
+  - first:
+      213: 1301343849495038055
+    second: Dog_Storybook_Actions_45
+  - first:
+      213: 5650174144430410695
+    second: Dog_Storybook_Actions_46
+  - first:
+      213: 3096749601379731444
+    second: Dog_Storybook_Actions_47
+  - first:
+      213: 935872777817709498
+    second: Dog_Storybook_Actions_48
+  - first:
+      213: 2732059109602600400
+    second: Dog_Storybook_Actions_49
+  - first:
+      213: 4873500555854752316
+    second: Dog_Storybook_Actions_50
+  - first:
+      213: -5329270881966814964
+    second: Dog_Storybook_Actions_51
+  - first:
+      213: 6671371469150572371
+    second: Dog_Storybook_Actions_52
+  - first:
+      213: 1856314779253633882
+    second: Dog_Storybook_Actions_53
+  - first:
+      213: -2913572778272407802
+    second: Dog_Storybook_Actions_54
+  - first:
+      213: 4544873909852258578
+    second: Dog_Storybook_Actions_55
+  - first:
+      213: 4105190759551320635
+    second: Dog_Storybook_Actions_56
+  - first:
+      213: 174208503597655945
+    second: Dog_Storybook_Actions_57
+  - first:
+      213: -7371472283282160582
+    second: Dog_Storybook_Actions_58
+  - first:
+      213: -9022437854547779405
+    second: Dog_Storybook_Actions_59
+  - first:
+      213: -562302858311986625
+    second: Dog_Storybook_Actions_60
+  - first:
+      213: 6714739429804586728
+    second: Dog_Storybook_Actions_61
+  - first:
+      213: 7065365167664941662
+    second: Dog_Storybook_Actions_62
+  - first:
+      213: 6359867926074453388
+    second: Dog_Storybook_Actions_63
+  - first:
+      213: 6331932725455477979
+    second: Dog_Storybook_Actions_64
+  - first:
+      213: 2351089238957036065
+    second: Dog_Storybook_Actions_65
+  - first:
+      213: -5836520973087582490
+    second: Dog_Storybook_Actions_66
+  - first:
+      213: -3855249913943492552
+    second: Dog_Storybook_Actions_67
+  - first:
+      213: -1292596575899495232
+    second: Dog_Storybook_Actions_68
+  - first:
+      213: -5235933145606354451
+    second: Dog_Storybook_Actions_69
+  - first:
+      213: -2605942845975887877
+    second: Dog_Storybook_Actions_70
+  - first:
+      213: 4493101740556703331
+    second: Dog_Storybook_Actions_71
+  - first:
+      213: 8151213037129314648
+    second: Dog_Storybook_Actions_72
+  - first:
+      213: 4167878157079179058
+    second: Dog_Storybook_Actions_73
+  - first:
+      213: -2699911161027071437
+    second: Dog_Storybook_Actions_74
+  - first:
+      213: 3901975098278318566
+    second: Dog_Storybook_Actions_75
+  - first:
+      213: 6785309894302271721
+    second: Dog_Storybook_Actions_76
+  - first:
+      213: -3973629681672113283
+    second: Dog_Storybook_Actions_77
+  - first:
+      213: 1367455818172155906
+    second: Dog_Storybook_Actions_78
+  - first:
+      213: -6234441559868242916
+    second: Dog_Storybook_Actions_79
+  - first:
+      213: 1384680795270825741
+    second: Dog_Storybook_Actions_80
+  - first:
+      213: 6370594572921335388
+    second: Dog_Storybook_Actions_81
+  - first:
+      213: 6746648589042316106
+    second: Dog_Storybook_Actions_82
+  - first:
+      213: 1270478447499811223
+    second: Dog_Storybook_Actions_83
+  - first:
+      213: 1712429689582449702
+    second: Dog_Storybook_Actions_84
+  - first:
+      213: -8574290448776793893
+    second: Dog_Storybook_Actions_85
+  - first:
+      213: -903389837988101306
+    second: Dog_Storybook_Actions_86
+  - first:
+      213: 5262981905650642024
+    second: Dog_Storybook_Actions_87
+  - first:
+      213: 3225847627122397924
+    second: Dog_Storybook_Actions_88
+  - first:
+      213: -5548946400616282238
+    second: Dog_Storybook_Actions_89
+  - first:
+      213: -6891603353401434470
+    second: Dog_Storybook_Actions_90
+  - first:
+      213: 5181196568582497659
+    second: Dog_Storybook_Actions_91
+  - first:
+      213: -1417007585434166835
+    second: Dog_Storybook_Actions_92
+  - first:
+      213: 3883450086416858421
+    second: Dog_Storybook_Actions_93
+  - first:
+      213: -6856653642933932905
+    second: Dog_Storybook_Actions_94
+  - first:
+      213: -5964407026028908594
+    second: Dog_Storybook_Actions_95
+  - first:
+      213: 6116708192039266918
+    second: Dog_Storybook_Actions_96
+  - first:
+      213: -1785398092869719731
+    second: Dog_Storybook_Actions_97
+  - first:
+      213: 315802434737417734
+    second: Dog_Storybook_Actions_98
+  - first:
+      213: 5401509275498536655
+    second: Dog_Storybook_Actions_99
+  - first:
+      213: -2982706093778135180
+    second: Dog_Storybook_Actions_100
+  - first:
+      213: -3424972237108579325
+    second: Dog_Storybook_Actions_101
+  - first:
+      213: 3440869033968329412
+    second: Dog_Storybook_Actions_102
+  - first:
+      213: 7917772841206297514
+    second: Dog_Storybook_Actions_103
+  - first:
+      213: 7475623283473974435
+    second: Dog_Storybook_Actions_104
+  - first:
+      213: -8209270185268863267
+    second: Dog_Storybook_Actions_105
+  - first:
+      213: 2720928955593369180
+    second: Dog_Storybook_Actions_106
+  - first:
+      213: -6323536683453459311
+    second: Dog_Storybook_Actions_107
+  - first:
+      213: -3329809768079208233
+    second: Dog_Storybook_Actions_108
+  - first:
+      213: 6058447450795375093
+    second: Dog_Storybook_Actions_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 530
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog_Storybook_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 444
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe2a136e8b2ea45a1f70baed30e834
+      internalID: 1479584840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_02
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 444
+        width: 443
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4dd912ff8d52f48b54b8062f38312e
+      internalID: -331181743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_03
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 444
+        width: 443
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6e88c18f0a72040af807fd67db2f6b
+      internalID: 2037516624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_04
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 444
+        width: 444
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aa0192c10332a44b231323e44b29c4
+      internalID: -785072611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 444
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9f36b17d9258143a74adafb185aeeb
+      internalID: 2003076944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_06
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 423
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a563ede8a02ca5f4eb0e43b2704ffda0
+      internalID: -1116393655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_07
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 443
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b57b4d2bfd124a4da28ca8dc873bf2f
+      internalID: 1906169582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Storybook_08
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 444
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c28212caa85a9847b4fef07ddaf897d
+      internalID: -235032692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c449b73419058b6478f705615d6e1820
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dog_Storybook_01: 1479584840
+      Dog_Storybook_02: -331181743
+      Dog_Storybook_03: 2037516624
+      Dog_Storybook_04: -785072611
+      Dog_Storybook_05: 2003076944
+      Dog_Storybook_06: -1116393655
+      Dog_Storybook_07: 1906169582
+      Dog_Storybook_08: -235032692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: d5b58f06bf7b9c94d9c321258b8a1ace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6199464597881806087
+    second: Indicators__c4r2_0
+  - first:
+      213: 3755394947123543257
+    second: Indicators__c4r2_1
+  - first:
+      213: 5089537698564304293
+    second: Indicators__c4r2_2
+  - first:
+      213: -2309924091747550038
+    second: Indicators__c4r2_3
+  - first:
+      213: -8684226762856080554
+    second: Indicators__c4r2_4
+  - first:
+      213: 2870213321388051452
+    second: Indicators__c4r2_5
+  - first:
+      213: -4619394856344501564
+    second: Indicators__c4r2_6
+  - first:
+      213: -5506494806560831720
+    second: Indicators__c4r2_7
+  - first:
+      213: 6654724029090191430
+    second: Indicators__c4r2_8
+  - first:
+      213: -465674012558753733
+    second: Indicators__c4r2_9
+  - first:
+      213: -5208057288998716293
+    second: Indicators__c4r2_10
+  - first:
+      213: 137851764770013460
+    second: Indicators__c4r2_11
+  - first:
+      213: -534964676197869232
+    second: Indicators__c4r2_12
+  - first:
+      213: 5241418143958188799
+    second: Indicators__c4r2_13
+  - first:
+      213: -3856456285996975930
+    second: Indicators__c4r2_14
+  - first:
+      213: 5549254830917244272
+    second: Indicators__c4r2_15
+  - first:
+      213: -6864221126075140116
+    second: Indicators__c4r2_16
+  - first:
+      213: 1307367560272227254
+    second: Indicators__c4r2_17
+  - first:
+      213: -529590697149256537
+    second: Indicators__c4r2_18
+  - first:
+      213: -8942769193182345667
+    second: Indicators__c4r2_19
+  - first:
+      213: -8529255458725911585
+    second: Indicators__c4r2_20
+  - first:
+      213: 3358271335846473
+    second: Indicators__c4r2_21
+  - first:
+      213: -5689248578297538837
+    second: Indicators__c4r2_22
+  - first:
+      213: 1027195334618353638
+    second: Indicators__c4r2_23
+  - first:
+      213: 2690675881133761504
+    second: Indicators__c4r2_24
+  - first:
+      213: -2032554738749107805
+    second: Indicators__c4r2_25
+  - first:
+      213: 5086532242382735701
+    second: Indicators__c4r2_26
+  - first:
+      213: -182119442067867083
+    second: Indicators__c4r2_27
+  - first:
+      213: 2853338954415519240
+    second: Indicators__c4r2_28
+  - first:
+      213: 1660080508549362598
+    second: Indicators__c4r2_29
+  - first:
+      213: -2273028725431951228
+    second: Indicators__c4r2_30
+  - first:
+      213: 352861442431069847
+    second: Indicators__c4r2_31
+  - first:
+      213: 5230637830806639362
+    second: Indicators__c4r2_32
+  - first:
+      213: 3629105713067567900
+    second: Indicators__c4r2_33
+  - first:
+      213: 2870677007468440269
+    second: Indicators__c4r2_34
+  - first:
+      213: -6370615096847834848
+    second: Indicators__c4r2_35
+  - first:
+      213: 4104921664919134451
+    second: Indicators__c4r2_36
+  - first:
+      213: -1806268612185399409
+    second: Indicators__c4r2_37
+  - first:
+      213: -2294072112366623336
+    second: Indicators__c4r2_38
+  - first:
+      213: 6282280272869958988
+    second: Indicators__c4r2_39
+  - first:
+      213: -4543910310102163348
+    second: Indicators__c4r2_40
+  - first:
+      213: 2443798080492311889
+    second: Indicators__c4r2_41
+  - first:
+      213: 3399568259203025024
+    second: Indicators__c4r2_42
+  - first:
+      213: 3503385813822746710
+    second: Indicators__c4r2_43
+  - first:
+      213: -293005406213472527
+    second: Indicators__c4r2_44
+  - first:
+      213: 7946343982582932123
+    second: Indicators__c4r2_45
+  - first:
+      213: 1667010261464628262
+    second: Indicators__c4r2_46
+  - first:
+      213: 4297965188709212800
+    second: Indicators__c4r2_47
+  - first:
+      213: -1368625589387316693
+    second: Indicators__c4r2_48
+  - first:
+      213: 532248117247557000
+    second: Indicators__c4r2_49
+  - first:
+      213: -1366703120021102705
+    second: Indicators__c4r2_50
+  - first:
+      213: 6058032893880950710
+    second: Indicators__c4r2_51
+  - first:
+      213: 6960371796917132527
+    second: Indicators__c4r2_52
+  - first:
+      213: -8353344066507193528
+    second: Indicators__c4r2_53
+  - first:
+      213: 3731298576691258700
+    second: Indicators__c4r2_54
+  - first:
+      213: -6768392048684034028
+    second: Indicators__c4r2_55
+  - first:
+      213: 5680803347262020782
+    second: Indicators__c4r2_56
+  - first:
+      213: 6148315362841618353
+    second: Indicators__c4r2_57
+  - first:
+      213: 41651963846798542
+    second: Indicators__c4r2_58
+  - first:
+      213: -4101902850727846007
+    second: Indicators__c4r2_59
+  - first:
+      213: 7802006737772854212
+    second: Indicators__c4r2_60
+  - first:
+      213: 417075134323414167
+    second: Indicators__c4r2_61
+  - first:
+      213: -6812843697685707574
+    second: Indicators__c4r2_62
+  - first:
+      213: 3020750744809767656
+    second: Indicators__c4r2_63
+  - first:
+      213: -5897458894724714151
+    second: Indicators__c4r2_64
+  - first:
+      213: 3456259985963440995
+    second: Indicators__c4r2_65
+  - first:
+      213: -541958939853062664
+    second: Indicators__c4r2_66
+  - first:
+      213: 8518160349920365967
+    second: Indicators__c4r2_67
+  - first:
+      213: 1314872501699438413
+    second: Indicators__c4r2_68
+  - first:
+      213: 1656726346659396782
+    second: Indicators__c4r2_69
+  - first:
+      213: 244728886050759751
+    second: Indicators__c4r2_70
+  - first:
+      213: -864334236382104912
+    second: Indicators__c4r2_71
+  - first:
+      213: -6260203939965554101
+    second: Indicators__c4r2_72
+  - first:
+      213: 8371873887031729097
+    second: Indicators__c4r2_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Indicators__c4r2_00
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 541
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0c7a4f7eac48e4780b54ca3a2d8355
+      internalID: -1168612939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_01
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 498
+        width: 302
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783551e1ba6f46045a83fb2560f37683
+      internalID: -614506985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_02
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 567
+        width: 152
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bea31b5ff548784d8b2408da358d2b2
+      internalID: 1278020329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_03
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 582
+        width: 114
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc161d7717b33c4397918cdc544a0e1
+      internalID: 928577853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_04
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 99
+        width: 182
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52cb519d4a5424290e828e53aa7ec1
+      internalID: -1565272838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_05
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 165
+        width: 318
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788b321eac1cfdb48b5ebba9ebb7df1d
+      internalID: 219708959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_06
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 140
+        width: 40
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ea1e5a5c1c5443b7d779d7091be60
+      internalID: 2069458974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indicators__c4r2_07
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 153
+        width: 138
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e5055245bf3d4abb3df96f73f7c99
+      internalID: -505175535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3a17c02fabb4e9419f62615e068bd06
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Indicators__c4r2_00: -1168612939
+      Indicators__c4r2_01: -614506985
+      Indicators__c4r2_02: 1278020329
+      Indicators__c4r2_03: 928577853
+      Indicators__c4r2_04: -1565272838
+      Indicators__c4r2_05: 219708959
+      Indicators__c4r2_06: 2069458974
+      Indicators__c4r2_07: -505175535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: be314f8e20b164c448ea4d50862d8d6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2441869447796843118
+    second: PettingDog_Separated_0
+  - first:
+      213: 8152356262081127104
+    second: PettingDog_Separated_1
+  - first:
+      213: -5389199618348301139
+    second: PettingDog_Separated_2
+  - first:
+      213: 5033644986893568036
+    second: PettingDog_Separated_3
+  - first:
+      213: 611048584969157079
+    second: PettingDog_Separated_4
+  - first:
+      213: 7059312560432760365
+    second: PettingDog_Separated_5
+  - first:
+      213: -4491372807008920860
+    second: PettingDog_Separated_6
+  - first:
+      213: -7766604397457947220
+    second: PettingDog_Separated_7
+  - first:
+      213: -2200702222030535479
+    second: PettingDog_Separated_8
+  - first:
+      213: 2683452261244414803
+    second: PettingDog_Separated_9
+  - first:
+      213: -8855553960106575427
+    second: PettingDog_Separated_10
+  - first:
+      213: 3197420037660654867
+    second: PettingDog_Separated_11
+  - first:
+      213: 803674054008494062
+    second: PettingDog_Separated_12
+  - first:
+      213: -8535307129854661431
+    second: PettingDog_Separated_13
+  - first:
+      213: 387999043915810509
+    second: PettingDog_Separated_14
+  - first:
+      213: 5717152879535502814
+    second: PettingDog_Separated_15
+  - first:
+      213: 6203311472016056620
+    second: PettingDog_Separated_16
+  - first:
+      213: -228610735288682404
+    second: PettingDog_Separated_17
+  - first:
+      213: -1022265509265412064
+    second: PettingDog_Separated_18
+  - first:
+      213: 3104063730524267347
+    second: PettingDog_Separated_19
+  - first:
+      213: 4158931868342964389
+    second: PettingDog_Separated_20
+  - first:
+      213: -6001457088732550024
+    second: PettingDog_Separated_21
+  - first:
+      213: 2122113572548958862
+    second: PettingDog_Separated_22
+  - first:
+      213: -6525759914026365161
+    second: PettingDog_Separated_23
+  - first:
+      213: 8941447087521844571
+    second: PettingDog_Separated_24
+  - first:
+      213: -3153201210026276645
+    second: PettingDog_Separated_25
+  - first:
+      213: -764312515289835228
+    second: PettingDog_Separated_26
+  - first:
+      213: -4029112945769790815
+    second: PettingDog_Separated_27
+  - first:
+      213: 2122350743312183367
+    second: PettingDog_Separated_28
+  - first:
+      213: 5625138602713979357
+    second: PettingDog_Separated_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PettingDog_Separated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 842
+        width: 251
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d9030ccacbc1ed0800000000000000
+      internalID: -2441869447796843118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 1245
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2e6cbc3dcf22170800000000000000
+      internalID: 8152356262081127104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 901
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4cda41087b535b0800000000000000
+      internalID: -5389199618348301139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 917
+        width: 164
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428873932791bd540800000000000000
+      internalID: 5033644986893568036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_4
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 890
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d977975371ea7800800000000000000
+      internalID: 611048584969157079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_5
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 915
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d264c033f57b7f160800000000000000
+      internalID: 7059312560432760365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 918
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea52647a307ba1c0800000000000000
+      internalID: -4491372807008920860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 900
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca54882237a773490800000000000000
+      internalID: -7766604397457947220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 874
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c405772df88571e0800000000000000
+      internalID: -2200702222030535479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 870
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b21333d998d3520800000000000000
+      internalID: 2683452261244414803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db93b8e8790ca1580800000000000000
+      internalID: -8855553960106575427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 754
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dba7665948f5c20800000000000000
+      internalID: 3197420037660654867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 760
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7df584b49372b00800000000000000
+      internalID: 803674054008494062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 698
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc672c236f7c8980800000000000000
+      internalID: -8535307129854661431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_14
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 694
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc60bc12313726500800000000000000
+      internalID: 387999043915810509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_15
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 674
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5b05fc048675f40800000000000000
+      internalID: 5717152879535502814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_16
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 636
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c216f90dae6961650800000000000000
+      internalID: 6203311472016056620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_17
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 632
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58f64b5fbfc3dcf0800000000000000
+      internalID: -228610735288682404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_18
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 633
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020f91e7fee20d1f0800000000000000
+      internalID: -1022265509265412064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 505
+        width: 122
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353a2125489d31b20800000000000000
+      internalID: 3104063730524267347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 521
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a052a1df7e77b930800000000000000
+      internalID: 4158931868342964389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_21
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 529
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ca85b239a86bca0800000000000000
+      internalID: -6001457088732550024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 537
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ad0d00d03437d10800000000000000
+      internalID: 2122113572548958862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 501
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f89f2eee7df65a0800000000000000
+      internalID: -6525759914026365161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_24
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 409
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dc0b590c6661c70800000000000000
+      internalID: 8941447087521844571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_25
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd84d03b4349d34d0800000000000000
+      internalID: -3153201210026276645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_26
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42993cc11dd9465f0800000000000000
+      internalID: -764312515289835228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_27
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 33
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2c67b7f17b518c0800000000000000
+      internalID: -4029112945769790815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_28
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 42
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740b8ef91ca147d10800000000000000
+      internalID: 2122350743312183367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PettingDog_Separated_29
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 14
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99a1381c1801e40800000000000000
+      internalID: 5625138602713979357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PettingDog_Separated_0: -2441869447796843118
+      PettingDog_Separated_1: 8152356262081127104
+      PettingDog_Separated_10: -8855553960106575427
+      PettingDog_Separated_11: 3197420037660654867
+      PettingDog_Separated_12: 803674054008494062
+      PettingDog_Separated_13: -8535307129854661431
+      PettingDog_Separated_14: 387999043915810509
+      PettingDog_Separated_15: 5717152879535502814
+      PettingDog_Separated_16: 6203311472016056620
+      PettingDog_Separated_17: -228610735288682404
+      PettingDog_Separated_18: -1022265509265412064
+      PettingDog_Separated_19: 3104063730524267347
+      PettingDog_Separated_2: -5389199618348301139
+      PettingDog_Separated_20: 4158931868342964389
+      PettingDog_Separated_21: -6001457088732550024
+      PettingDog_Separated_22: 2122113572548958862
+      PettingDog_Separated_23: -6525759914026365161
+      PettingDog_Separated_24: 8941447087521844571
+      PettingDog_Separated_25: -3153201210026276645
+      PettingDog_Separated_26: -764312515289835228
+      PettingDog_Separated_27: -4029112945769790815
+      PettingDog_Separated_28: 2122350743312183367
+      PettingDog_Separated_29: 5625138602713979357
+      PettingDog_Separated_3: 5033644986893568036
+      PettingDog_Separated_4: 611048584969157079
+      PettingDog_Separated_5: 7059312560432760365
+      PettingDog_Separated_6: -4491372807008920860
+      PettingDog_Separated_7: -7766604397457947220
+      PettingDog_Separated_8: -2200702222030535479
+      PettingDog_Separated_9: 2683452261244414803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

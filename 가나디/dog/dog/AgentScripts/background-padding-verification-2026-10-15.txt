@@ -1,0 +1,8 @@
+PASS URP pipeline detected
+PASS Backdrop Sky Fill renders without gameplay colliders
+PASS Backdrop Floor Fill renders without gameplay colliders
+PASS Home Ceiling Fill renders without gameplay colliders
+PASS home has no old blue backdrop pixels: 0
+PASS street has no old blue backdrop pixels: 0
+PASS street-zoom-out has no old blue backdrop pixels: 0
+Result: PASS

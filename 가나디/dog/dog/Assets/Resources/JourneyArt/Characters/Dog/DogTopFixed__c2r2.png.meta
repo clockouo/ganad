@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 06b3be16081593f41888583b2209739b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 283500941741853945
+    second: DogTopFixed__c2r2_0
+  - first:
+      213: -533836556747466522
+    second: DogTopFixed__c2r2_1
+  - first:
+      213: -6153849172646403761
+    second: DogTopFixed__c2r2_2
+  - first:
+      213: -46702134425105023
+    second: DogTopFixed__c2r2_3
+  - first:
+      213: -3750480962589963489
+    second: DogTopFixed__c2r2_4
+  - first:
+      213: -8156979048923132918
+    second: DogTopFixed__c2r2_5
+  - first:
+      213: -5084724704159414925
+    second: DogTopFixed__c2r2_6
+  - first:
+      213: 8545188568200447590
+    second: DogTopFixed__c2r2_7
+  - first:
+      213: -1028309807748968446
+    second: DogTopFixed__c2r2_8
+  - first:
+      213: 4493305548689678492
+    second: DogTopFixed__c2r2_9
+  - first:
+      213: 916332249337573095
+    second: DogTopFixed__c2r2_10
+  - first:
+      213: 3749416300319585989
+    second: DogTopFixed__c2r2_11
+  - first:
+      213: -5162199463123541941
+    second: DogTopFixed__c2r2_12
+  - first:
+      213: 9103733739724289017
+    second: DogTopFixed__c2r2_13
+  - first:
+      213: -5307185484503002897
+    second: DogTopFixed__c2r2_14
+  - first:
+      213: -2598226393268228928
+    second: DogTopFixed__c2r2_15
+  - first:
+      213: -6593331278311909586
+    second: DogTopFixed__c2r2_16
+  - first:
+      213: 4562909259426915688
+    second: DogTopFixed__c2r2_17
+  - first:
+      213: 1380333602139918070
+    second: DogTopFixed__c2r2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DogTopFixed__c2r2_00
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 687
+        width: 223
+        height: 439
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593bff2a09be86846bbc66705c2195ba
+      internalID: 863902010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogTopFixed__c2r2_01
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 687
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930381b6d50614d41b4c37221b90de78
+      internalID: -997327516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogTopFixed__c2r2_02
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 117
+        width: 217
+        height: 428
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf2eaf4395c5c41b77773eb1085482
+      internalID: -743548859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogTopFixed__c2r2_03
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 115
+        width: 220
+        height: 430
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37029dc2bc63c04296b83c9e4e48a8c
+      internalID: 1902059088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3788633eec999474893d68d4fd6613ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DogTopFixed__c2r2_00: 863902010
+      DogTopFixed__c2r2_01: -997327516
+      DogTopFixed__c2r2_02: -743548859
+      DogTopFixed__c2r2_03: 1902059088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

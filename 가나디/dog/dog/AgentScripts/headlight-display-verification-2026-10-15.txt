@@ -1,0 +1,5 @@
+PASS URP pipeline detected
+PASS Stepped headlight display is active with 24 bands
+PASS Gameplay light is active with visible beam
+PASS Switching off the source hides the display and disables gameplay exposure together
+Result: PASS

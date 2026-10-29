@@ -1,0 +1,7 @@
+Built-in imagegen edit, 2026-10-15.
+Edit target: Gate_LeashBound.png.
+Output: Gate_Open_Source.png, normalized to Gate_Open.png (90x69).
+Unity renders a cropped opened door leaf from the new image and retains the original fixed pillar sprites.
+
+Exact prompt:
+Edit this existing Unity pixel-art park gate into its OPEN state. Preserve the exact two sage stone pillars, their shape, scale, relative positions, pale caps, color palette and pixel-art style from the input. The pillars must remain upright, stationary and on their existing common ground baseline. Only change the iron door between them: make the door swing about its RIGHT hinge, around 80-90 degrees OPEN into depth, so it appears as a narrow upright dark teal iron leaf beside the right pillar. The broad passage between the two pillars is EMPTY and fully TRANSPARENT, unobstructed for a dog to walk through. Remove the orange leash/chain completely. Do not draw any fallen panel, collapsed gate, broken pillars, rubble or ground. Full side view matching the original, entire gate assembly visible with transparent margins. Exactly one gate, no dog/person/text. Soft muted gray-green outlines, flat sage and teal colors, chunky hard square pixels, similar logical resolution to the original 90x69 sprite. No glow, haze, shadows, gradients or backdrop. This is the same original gate with the door correctly swung open on its hinge, not destroyed or translated away.

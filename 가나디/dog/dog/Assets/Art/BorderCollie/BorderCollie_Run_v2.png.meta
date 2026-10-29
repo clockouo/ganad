@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 267a8b1a509476544a90a8c942cdded0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6004960444545106705
+    second: BorderCollie_Run_v2_0
+  - first:
+      213: 8428816527547730492
+    second: BorderCollie_Run_v2_1
+  - first:
+      213: -827428617073080491
+    second: BorderCollie_Run_v2_2
+  - first:
+      213: -2594566732385476438
+    second: BorderCollie_Run_v2_3
+  - first:
+      213: 3675293999999791968
+    second: BorderCollie_Run_v2_4
+  - first:
+      213: -2393168621139546889
+    second: BorderCollie_Run_v2_5
+  - first:
+      213: 3399376837803796024
+    second: BorderCollie_Run_v2_6
+  - first:
+      213: -5308595862855936879
+    second: BorderCollie_Run_v2_7
+  - first:
+      213: -7719756415187772490
+    second: BorderCollie_Run_v2_8
+  - first:
+      213: 6781275837428164980
+    second: BorderCollie_Run_v2_9
+  - first:
+      213: -122185613752455848
+    second: BorderCollie_Run_v2_10
+  - first:
+      213: -4383658875688372541
+    second: BorderCollie_Run_v2_11
+  - first:
+      213: -8369088921830345107
+    second: BorderCollie_Run_v2_12
+  - first:
+      213: -4266368276851772579
+    second: BorderCollie_Run_v2_13
+  - first:
+      213: -3025938976134874398
+    second: BorderCollie_Run_v2_14
+  - first:
+      213: 758920190561472898
+    second: BorderCollie_Run_v2_15
+  - first:
+      213: 2819001286417575271
+    second: BorderCollie_Run_v2_16
+  - first:
+      213: -7488959532230558192
+    second: BorderCollie_Run_v2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 592
+        width: 211
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecfd949a481aaca0800000000000000
+      internalID: -6004960444545106705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_1
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 58
+        width: 621
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a8c6959fb29f470800000000000000
+      internalID: 8428816527547730492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_2
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 73
+        width: 519
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557cd528e026484f0800000000000000
+      internalID: -827428617073080491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 21
+        width: 478
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa02e12bd4f3efbd0800000000000000
+      internalID: -2594566732385476438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 15
+        width: 584
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063bc13ab64410330800000000000000
+      internalID: 3675293999999791968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 436
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcad5191d1c9ced0800000000000000
+      internalID: -2393168621139546889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 375
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8366cfa29330d2f20800000000000000
+      internalID: 3399376837803796024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 178
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1941d5a50341456b0800000000000000
+      internalID: -5308595862855936879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 134
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb9030017aedd490800000000000000
+      internalID: -7719756415187772490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_9
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 120
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47968d5027eeb1e50800000000000000
+      internalID: 6781275837428164980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d2f97e4d8ed4ef0800000000000000
+      internalID: -122185613752455848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 79
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c63b1a6a7d1a23c0800000000000000
+      internalID: -4383658875688372541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_12
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 53
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6635a887f50bdb80800000000000000
+      internalID: -8369088921830345107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 61
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53314908a0dac4c0800000000000000
+      internalID: -4266368276851772579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_14
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 79
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eab8778884b106d0800000000000000
+      internalID: -3025938976134874398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_15
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281d94374e9388a00800000000000000
+      internalID: 758920190561472898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_16
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 65
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de94afbba1f1720800000000000000
+      internalID: 2819001286417575271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderCollie_Run_v2_17
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 42
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e3f10dbfed11890800000000000000
+      internalID: -7488959532230558192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BorderCollie_Run_v2_0: -6004960444545106705
+      BorderCollie_Run_v2_1: 8428816527547730492
+      BorderCollie_Run_v2_10: -122185613752455848
+      BorderCollie_Run_v2_11: -4383658875688372541
+      BorderCollie_Run_v2_12: -8369088921830345107
+      BorderCollie_Run_v2_13: -4266368276851772579
+      BorderCollie_Run_v2_14: -3025938976134874398
+      BorderCollie_Run_v2_15: 758920190561472898
+      BorderCollie_Run_v2_16: 2819001286417575271
+      BorderCollie_Run_v2_17: -7488959532230558192
+      BorderCollie_Run_v2_2: -827428617073080491
+      BorderCollie_Run_v2_3: -2594566732385476438
+      BorderCollie_Run_v2_4: 3675293999999791968
+      BorderCollie_Run_v2_5: -2393168621139546889
+      BorderCollie_Run_v2_6: 3399376837803796024
+      BorderCollie_Run_v2_7: -5308595862855936879
+      BorderCollie_Run_v2_8: -7719756415187772490
+      BorderCollie_Run_v2_9: 6781275837428164980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

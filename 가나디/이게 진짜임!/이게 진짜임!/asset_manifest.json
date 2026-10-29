@@ -1,0 +1,401 @@
+{
+  "method": "Built-in image_gen; no CLI/API fallback.",
+  "assets": [
+    {
+      "file": "Backgrounds/01_House.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "House"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nWide 3:1 SIDE SCROLL house cutaway backdrop. Single level floor at y85%. Left bedroom wall fourpane window, middle bathroom EMPTY dark door opening, right entry EMPTY dark door opening. Include static narrow table with navy briefcase, shoe cabinet and plant, coat hook. NO characters, dog, bed, lamp, ball, door leaves, UI or lights. Furniture behind play line. Floor continuous flat across edges. Openings will receive separate doors. Broad empty wall space."
+    },
+    {
+      "file": "Backgrounds/02_Street.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "Street"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nWide 3:1 SIDE SCROLL residential street background matching reference. House frontage left, low masonry wall, shrub, bicycle and trees, right pair of gate POSTS with OPEN empty space between. Single sidewalk at y85%. REMOVE car entirely leaving empty parking space. REMOVE gates, leash, characters, headlights, labels. Park foliage beyond right. Flat continuous floor."
+    },
+    {
+      "file": "Backgrounds/03_ParkSide.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "ParkSide"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nWide 3:1 SIDE SCROLL park background. Central round shallow fountain basin seen from side with segmented cream low walls and visible opening for dog to enter. Static basin and fountain column are INCLUDED but NO water jets, splashes, characters, cursor, text, moving items. Simple silhouettes trees bushes and bench. One continuous sidewalk y85%, same height at both edges."
+    },
+    {
+      "file": "Backgrounds/04_ParkTop.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "ParkTop"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nLandscape 16:9 TOP DOWN park. Keep circular pool, ring path, four curved cream low walls and four path gaps. Static flat teal pool water center and small fountain column. NO jets, ripples, dog, human, memory images, points, arrows, labels. Simplify bushes into solid block silhouettes. Path ring clearly usable."
+    },
+    {
+      "file": "Backgrounds/05_WakeBed.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "WakeBed"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\n16:9 close-up bed scene directly above pillow. REMOVE the owner entirely including head hair neck shirt, replace with coherent pillow and bedding. Just cream pillow centered, dark teal mattress, cream blanket in lower quarter. Leave clear center area to overlay separate face sprite. No characters or UI. Same gentle simple composition."
+    },
+    {
+      "file": "Backgrounds/06_FirstMeetingPark.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "FirstMeetingPark"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\n16:9 LOW dog-eye view park setting. REMOVE seated person and all characters. Keep bench at left, flat hedge across distant middle, sparse trees, broad pale empty path foreground. No movable props, UI or text. For first-meeting character overlays."
+    },
+    {
+      "file": "Backgrounds/07_LeashFence.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "LeashFence"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nRecreate ONLY inner game scene's dark sage chain-link fence as full 16:9 backdrop. REMOVE red leash and all slide captions and framing. Thick diagonal navy diamond wires and single central vertical navy post. Simple flat sparse pixel geometry. No objects, characters, text."
+    },
+    {
+      "file": "Characters/DogMove__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "idle",
+        "tail_up",
+        "walk_contact_a",
+        "walk_pass_a",
+        "walk_contact_b",
+        "walk_pass_b",
+        "run_extend",
+        "run_tuck"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sprite sheet EXACT 4 columns x2 rows equal cells. SAME small cream dog facing RIGHT in all8. Row1: idle neutral, idle tail up, walk contact foreleg forward, walk passing feet. Row2: walk opposite contact, walk opposite passing, run stretched stride, run tucked stride. All same size and matching feet baseline at 80% of each cell, occupy max65% cell width, ample margin. Never put decoration, shadows or labels between cells."
+    },
+    {
+      "file": "Characters/DogAction__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "crouch",
+        "push",
+        "bite_pull",
+        "recoil",
+        "sniff",
+        "sit",
+        "lie",
+        "reach"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT4x2 equal cells. SAME cream dog facing RIGHT, same proportions and red collar. Row1: crouch crawling, push with head/frontpaws, bite-and-pull braced backwards, frightened recoil leaning back. Row2: sniff forward, sitting, lying resting, standing on hindlegs to reach bed. All complete body within cell, same scale, baseline80%, ample margin. No objects being pushed or pulled, just dog."
+    },
+    {
+      "file": "Characters/DogTopFixed__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "step_01",
+        "step_02",
+        "step_03",
+        "step_04"
+      ],
+      "splitX": 0,
+      "prompt": "Create a transparent sprite sheet, EXACT 2 columns 2 rows equal square cells. Four frames of the SAME small cream dog from STRAIGHT VERTICAL OVERHEAD CAMERA, always facing UP in ALL FOUR CELLS. We see top of long rectangular back, top of head, tan left ear, cream right ear, tail at bottom, small feet at sides. NO side elevation, NO face looking at viewer. Four walking foot positions, same dimensions, same center. The game rotates this sprite in Unity to face other directions, so do not rotate it yourself. Match reference EXTREMELY SIMPLE BLOCK PIXEL design. Flat solid cream, tan patch and terracotta collar, navy outline. No lighting, shadows, texture, gradients, haze or glows. Fully opaque pixels within the dog and fully transparent outside. Subject occupies center 65% of each cell. NO gridlines."
+    },
+    {
+      "file": "Characters/OwnerMove__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "idle",
+        "walk_contact_a",
+        "walk_pass_a",
+        "walk_contact_b",
+        "walk_pass_b",
+        "bag_walk_a",
+        "bag_walk_b",
+        "bag_idle"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT4x2 equal cells. SAME simple rectangular owner sprite from reference, short navy cap hair, teal shirt navy pants tan shoes. All facing RIGHT. Row1 idle, walk contact1, walk pass1, walk contact2. Row2 walk pass2, walking with small navy briefcase1, walking with briefcase2, idle with briefcase. Same adult proportions, full body, baseline85%, plenty empty margin. Tiny dot face no detailed features."
+    },
+    {
+      "file": "Characters/OwnerStory__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "sleep",
+        "sit_bed",
+        "switch_reach",
+        "dress",
+        "kneel_pet",
+        "offer_hand",
+        "withdraw_hand",
+        "wait_seated"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT4x2 equal cells. SAME owner identity. Row1: lying sleeping horizontally head RIGHT, sitting on bed edge facing RIGHT, standing reaching for wall switch RIGHT, putting on coat. Row2: kneeling petting hand extended down LEFT, crouching offering hand LEFT, crouching hand withdrawn on knee, seated patiently hands on knees. NO furniture, bed, dog or props under poses, character only. Each centered with padding, complete silhouette, max70%cell."
+    },
+    {
+      "file": "Props/HouseItems__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "bed",
+        "lamp_cabinet",
+        "ball",
+        "ball_turn",
+        "bowl",
+        "bag",
+        "coat",
+        "switch"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT4x2 equal cells each isolated object. Row1 empty sideview bed cream mattress navy legs; bedside table with lamp shade unlit; small terracotta ball plain; same ball rotated patch. Row2 cream pet bowl; navy briefcase; coat on single hook; wall light switch small cream rectangle. Objects independent no characters background text. Max70%cell width, centered."
+    },
+    {
+      "file": "Props/Doors__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "bathroom_closed",
+        "bathroom_open",
+        "front_closed",
+        "front_ajar"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells. Door LEAVES only, no surrounding frames or wall. Row1 dark sage bathroom door closed frontal, same bathroom door open 75deg narrow leaf. Row2 navy front door closed cream knob/lock, same front door slightly ajar 15deg. Same tall door proportions and scale each cell, entire leaf visible, bottom baseline90%, empty margins. No floor."
+    },
+    {
+      "file": "Props/StreetItems__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "car",
+        "gate_left",
+        "gate_right",
+        "leash_loop"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells: row1 parked dark teal car viewed HEAD ON headlights unlit; left leaf of simple dark metal bar park gate viewed frontal. Row2 matching right gate leaf; small terracotta leash wrapped as loop with loose end for tying two gate handles. All isolated complete objects, no backgrounds, no posts attached, no text. Small car only one, no light beams."
+    },
+    {
+      "file": "Effects/Lights__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "headlight_beams",
+        "lamp_glow",
+        "headlight_flare",
+        "impact"
+      ],
+      "splitX": 0.64,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent effect sheet EXACT2x2 equal cells. Row1 paired pale yellow car headlights facing camera, with soft semitransparent cone glow spreading down; single lamp warm glow circle. Row2 paired hard pale cream flare shapes for frightened headlight moment; small white impact star flash. ONLY LIGHT EFFECTS on real alpha, no black rectangles or car or lamps or text. Limited simple shapes, transparent soft edges allowed for light."
+    },
+    {
+      "file": "Puzzles/WakeFaces__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "asleep",
+        "stir",
+        "half_awake",
+        "awake"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells, same owner FRONT FACE lying on back viewed above, head ears neck small teal shoulders ONLY. Row1 peacefully sleeping eyes shut; eyebrow twitch eyes shut. Row2 one eye half open sleepy; both eyes open gentle tiny smile. SAME head proportions, position, hair silhouette across frames. Simple few navy hair locks not square helmet, no pillow blanket bed UI. Complete head centered margin15%."
+    },
+    {
+      "file": "Puzzles/PetDog__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "curious",
+        "soft",
+        "eyes_closed",
+        "tilt"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells. Extract ONLY dog closeup design, no other screen elements. Same cream dog tan patch red collar as reference, FRONT HIGH ANGLE owner looking down from in front, dog looking UP so both eyes nose and forehead visible. Row1 curious eyes open neutral; one eye softened. Row2 both eyes comfortably closed; eyes closed head tilted leaning into imagined hand. NO hand or cursor, no human, no backdrop. Same face scale centered."
+    },
+    {
+      "file": "Puzzles/LeashStatesFixed__c2r3.png",
+      "cols": 2,
+      "rows": 3,
+      "alpha": true,
+      "names": [
+        "intact",
+        "abraded",
+        "weak",
+        "threads",
+        "broken",
+        "drooped"
+      ],
+      "splitX": 0,
+      "prompt": "Transparent game sprite sheet 2 columns 3 rows, six SOLID OPAQUE terracotta fabric bands. Match reference thick red band proportions and vertical broad torn edges. Absolutely NO glowing light, bloom, haze, mist, transparency within fabric, gradients or shiny edge. Flat matte red blocks with darker red lower edge. Background fully transparent. Each cell contains one horizontal strap centered, width80% of cell height25%. Row1 left INTACT rectangular band, right shallow notch at exact center. Row2 left deeper notch with red center still intact, right broad left and right band joined by three tiny cream THREADS only. Row3 left fully severed band with GAP at center and many short jagged cream threads along thick VERTICAL red ends, right same two broad broken ends sagging down. Do NOT use reference slide layout or fence. ONLY six red fabric states in regular2x3 cells. Keep margins, no labels."
+    },
+    {
+      "file": "Puzzles/MemoryDetails__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "shoes",
+        "offered_hand",
+        "withdrawn_hand",
+        "dog_nose"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells. First meeting cut-in overlays. Row1 pair of navy trouser lower legs with tan shoes one stepping forward; warm tan relaxed open hand and short teal sleeve pointing LEFT. Row2 same hand withdrawn slightly with relaxed fingers; cream dog head sideview facing RIGHT tan earpatch small dark nose, NO collar. Sparse simple pixel shapes complete in eachcell, no scene, no text, no realistic details."
+    },
+    {
+      "file": "UI/Cursors__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "hand_open",
+        "hand_press",
+        "tongue",
+        "bite"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent cursor sheet EXACT2x2 equal cells. Row1 pale peach OPEN HAND cursor dark navy outline fingers together; same hand lightly curled pressing. Row2 rounded pink dog TONGUE icon with short center crease cream outline; small cream dog mouth/bite icon sideprofile dark outline. Center each, same icon footprint max45%cell, chunky readable pixels, no arrows text scene or shadows."
+    },
+    {
+      "file": "UI/Indicators__c4r2.png",
+      "cols": 4,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "target",
+        "approach_ring",
+        "memory_point",
+        "completed_point",
+        "click",
+        "drag",
+        "alert",
+        "dust"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent UI sheet EXACT4x2 equal cells. Row1 thin cream rhythm target ring; larger terracotta approach ring; small cream circular memory point with soft halo; solid cream completed memory point. Row2 plain cream mouse icon left button highlighted coral; small cream horizontal doublearrow; tiny cream exclamation mark; four cream tiny dot particles cluster. Icons centered same scales relative cell, no numbers words or labels."
+    },
+    {
+      "file": "Effects/Water__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "ripple_a",
+        "ripple_b",
+        "jet_a",
+        "jet_b"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent effect sheet EXACT2x2 equal cells. Row1 small broken cream/teal elliptical ripple; same ripple expanded thinner. Row2 simple small vertical fountain jet with two short arcs; same jet with arcs shifted. Only water pixels semitransparency allowed, no basin or backgrounds. Flat sparse low-res shapes, no sparkle decorations."
+    },
+    {
+      "file": "UI/CloseupPanel.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": true,
+      "names": [
+        "CloseupPanel"
+      ],
+      "splitX": 0,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nONE isolated flat muted blue-grey near-square interaction backdrop panel with restrained irregular pixel stepped edges, based on upper blue-grey panel reference. Empty panel ONLY. No characters, dog, hands, arrows, furniture or image content. True alpha outside panel, uniformly solid fill inside, max85%canvaswidth and height. No texture."
+    },
+    {
+      "file": "Puzzles/ParkMemoryVignettes__c2r2.png",
+      "cols": 2,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "walk_together",
+        "roll_ball",
+        "chase_ball",
+        "rest"
+      ],
+      "splitX": 0.52,
+      "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells. Four simple memory vignettes each complete, low-detail tiny pixel owner and cream dog with tanpatch. Colors muted teal/navy/cream at normal alpha (Unity fades later). Row1 owner walks slowly RIGHT with dog following behind; owner crouches rolling small terracotta ball toward hesitant dog. Row2 dog happily chases ball toward right with owner sitting watching left; dog lies beside seated owner's feet on small simple bench. NO scenery or background, no speech or hearts or text. Owner short navy cap hair teal shirt navy pants; dog no collar early memories. Each vignette entirely within owncell with15%margin."
+    },
+    {
+      "file": "Memories/01_ApproachingShoes.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "01_ApproachingShoes"
+      ],
+      "splitX": 0,
+      "prompt": "Reused previously generated approved memory image."
+    },
+    {
+      "file": "Memories/02_HandStops.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "02_HandStops"
+      ],
+      "splitX": 0,
+      "prompt": "Reused previously generated approved memory image."
+    },
+    {
+      "file": "Memories/03_WaitingOnBench.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "03_WaitingOnBench"
+      ],
+      "splitX": 0,
+      "prompt": "Reused previously generated approved memory image."
+    },
+    {
+      "file": "Memories/04_FirstSniff.png",
+      "cols": 1,
+      "rows": 1,
+      "alpha": false,
+      "names": [
+        "04_FirstSniff"
+      ],
+      "splitX": 0,
+      "prompt": "Reused previously generated approved memory image."
+    }
+  ]
+}

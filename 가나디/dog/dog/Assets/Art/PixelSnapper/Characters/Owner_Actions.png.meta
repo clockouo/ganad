@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 8ff0981e657a4ed43a41d3e6e70185eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6164674640764078932
+    second: Owner_Actions_0
+  - first:
+      213: 3832849335548054162
+    second: Owner_Actions_1
+  - first:
+      213: 3764501812614513960
+    second: Owner_Actions_2
+  - first:
+      213: 3234459481029218454
+    second: Owner_Actions_3
+  - first:
+      213: -3769394802559719613
+    second: Owner_Actions_4
+  - first:
+      213: -2791491464332082024
+    second: Owner_Actions_5
+  - first:
+      213: -225460009603152386
+    second: Owner_Actions_6
+  - first:
+      213: -4459247694781428193
+    second: Owner_Actions_7
+  - first:
+      213: -7529947928760776934
+    second: Owner_Actions_8
+  - first:
+      213: -2823623655254789805
+    second: Owner_Actions_9
+  - first:
+      213: -4056483059673497053
+    second: Owner_Actions_10
+  - first:
+      213: 560445449909971289
+    second: Owner_Actions_11
+  - first:
+      213: 927933714663770931
+    second: Owner_Actions_12
+  - first:
+      213: 2205005598523611825
+    second: Owner_Actions_13
+  - first:
+      213: -8688675426696995756
+    second: Owner_Actions_14
+  - first:
+      213: -2277344076389796727
+    second: Owner_Actions_15
+  - first:
+      213: -8172877479173711554
+    second: Owner_Actions_16
+  - first:
+      213: -7685183000786443875
+    second: Owner_Actions_17
+  - first:
+      213: 3137260103589262095
+    second: Owner_Actions_18
+  - first:
+      213: -5423474954744664520
+    second: Owner_Actions_19
+  - first:
+      213: 3147059118806783582
+    second: Owner_Actions_20
+  - first:
+      213: -3528117245061440069
+    second: Owner_Actions_21
+  - first:
+      213: -3275472171640100531
+    second: Owner_Actions_22
+  - first:
+      213: 5837646845647339085
+    second: Owner_Actions_23
+  - first:
+      213: -3954555217162909089
+    second: Owner_Actions_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Owner_Actions_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 152
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4f569731da27aa0800000000000000
+      internalID: -6164674640764078932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 154
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a0fe2d924013530800000000000000
+      internalID: 3832849335548054162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c33114723e3430800000000000000
+      internalID: 3764501812614513960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6901427d2cb13ec20800000000000000
+      internalID: 3234459481029218454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 133
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347693fe56b60bbc0800000000000000
+      internalID: -3769394802559719613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 72
+        width: 90
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89483fa9d41a249d0800000000000000
+      internalID: -2791491464332082024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 144
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef54c88d0510fdcf0800000000000000
+      internalID: -225460009603152386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 149
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ec21309d19d12c0800000000000000
+      internalID: -4459247694781428193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1786011140408790800000000000000
+      internalID: -7529947928760776934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 100
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351f529ee3970d8d0800000000000000
+      internalID: -2823623655254789805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32285ce362a74b7c0800000000000000
+      internalID: -4056483059673497053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 125
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9592ed5da2a17c700800000000000000
+      internalID: 560445449909971289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b84ad0ccea0ec00800000000000000
+      internalID: 927933714663770931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 112
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5fb3c8e0c99e10800000000000000
+      internalID: 2205005598523611825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 134
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c5f07ebbf9b6780800000000000000
+      internalID: -8688675426696995756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 140
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984327fd0af3560e0800000000000000
+      internalID: -2277344076389796727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e399f050c3b149e80800000000000000
+      internalID: -8172877479173711554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 122
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91e04457ceb85590800000000000000
+      internalID: -7685183000786443875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 130
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03717a3179c98b20800000000000000
+      internalID: 3137260103589262095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e67327342fbb4b0800000000000000
+      internalID: -5423474954744664520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d1af38999cab20800000000000000
+      internalID: 3147059118806783582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 4
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdde22fe0c990fc0800000000000000
+      internalID: -3528117245061440069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 5
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49e6b10a6f2b82d0800000000000000
+      internalID: -3275472171640100531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e3dfe70ec730150800000000000000
+      internalID: 5837646845647339085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owner_Actions_24
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a465c6bf89e19c0800000000000000
+      internalID: -3954555217162909089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Owner_Actions_0: -6164674640764078932
+      Owner_Actions_1: 3832849335548054162
+      Owner_Actions_10: -4056483059673497053
+      Owner_Actions_11: 560445449909971289
+      Owner_Actions_12: 927933714663770931
+      Owner_Actions_13: 2205005598523611825
+      Owner_Actions_14: -8688675426696995756
+      Owner_Actions_15: -2277344076389796727
+      Owner_Actions_16: -8172877479173711554
+      Owner_Actions_17: -7685183000786443875
+      Owner_Actions_18: 3137260103589262095
+      Owner_Actions_19: -5423474954744664520
+      Owner_Actions_2: 3764501812614513960
+      Owner_Actions_20: 3147059118806783582
+      Owner_Actions_21: -3528117245061440069
+      Owner_Actions_22: -3275472171640100531
+      Owner_Actions_23: 5837646845647339085
+      Owner_Actions_24: -3954555217162909089
+      Owner_Actions_3: 3234459481029218454
+      Owner_Actions_4: -3769394802559719613
+      Owner_Actions_5: -2791491464332082024
+      Owner_Actions_6: -225460009603152386
+      Owner_Actions_7: -4459247694781428193
+      Owner_Actions_8: -7529947928760776934
+      Owner_Actions_9: -2823623655254789805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 72bc4e4f8d3d64040a26091fe88ef349
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2901565723064546598
+    second: Dog_Actions_BorderCollie_0
+  - first:
+      213: 9019088768783979588
+    second: Dog_Actions_BorderCollie_1
+  - first:
+      213: -3738473715640839205
+    second: Dog_Actions_BorderCollie_2
+  - first:
+      213: -44672138058823305
+    second: Dog_Actions_BorderCollie_3
+  - first:
+      213: 3010989986020679712
+    second: Dog_Actions_BorderCollie_4
+  - first:
+      213: 7199232738261566305
+    second: Dog_Actions_BorderCollie_5
+  - first:
+      213: 8000501433332035453
+    second: Dog_Actions_BorderCollie_6
+  - first:
+      213: 6553838153812444145
+    second: Dog_Actions_BorderCollie_7
+  - first:
+      213: -6826757514818324960
+    second: Dog_Actions_BorderCollie_8
+  - first:
+      213: 2472431455607935736
+    second: Dog_Actions_BorderCollie_9
+  - first:
+      213: -390384790358054743
+    second: Dog_Actions_BorderCollie_10
+  - first:
+      213: -7295992349932811999
+    second: Dog_Actions_BorderCollie_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 86
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62536b7e6ae644820800000000000000
+      internalID: 2901565723064546598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 147
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4449515337d3a2d70800000000000000
+      internalID: 9019088768783979588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 157
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3d71186f54e1cc0800000000000000
+      internalID: -3738473715640839205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 85
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77985a75dea416ff0800000000000000
+      internalID: -44672138058823305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 151
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020650b707f29c920800000000000000
+      internalID: 3010989986020679712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 85
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16381734800d8e360800000000000000
+      internalID: 7199232738261566305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 85
+        width: 81
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f62c64aad770f60800000000000000
+      internalID: 8000501433332035453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 130
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f38461c319e3fa50800000000000000
+      internalID: 6553838153812444145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0267681c53c7241a0800000000000000
+      internalID: -6826757514818324960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 8
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f253033f47df4220800000000000000
+      internalID: 2472431455607935736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a82efcf913159af0800000000000000
+      internalID: -390384790358054743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Actions_BorderCollie_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 5
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12989421d9d6fba90800000000000000
+      internalID: -7295992349932811999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dog_Actions_BorderCollie_0: 2901565723064546598
+      Dog_Actions_BorderCollie_1: 9019088768783979588
+      Dog_Actions_BorderCollie_10: -390384790358054743
+      Dog_Actions_BorderCollie_11: -7295992349932811999
+      Dog_Actions_BorderCollie_2: -3738473715640839205
+      Dog_Actions_BorderCollie_3: -44672138058823305
+      Dog_Actions_BorderCollie_4: 3010989986020679712
+      Dog_Actions_BorderCollie_5: 7199232738261566305
+      Dog_Actions_BorderCollie_6: 8000501433332035453
+      Dog_Actions_BorderCollie_7: 6553838153812444145
+      Dog_Actions_BorderCollie_8: -6826757514818324960
+      Dog_Actions_BorderCollie_9: 2472431455607935736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: 7aa0394108b6479429ed376dbb1fb930
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8819831388535021998
+    second: HouseItems__c4r2_0
+  - first:
+      213: 6998277358839372460
+    second: HouseItems__c4r2_1
+  - first:
+      213: -4627922013755129070
+    second: HouseItems__c4r2_2
+  - first:
+      213: 1224189352891648200
+    second: HouseItems__c4r2_3
+  - first:
+      213: 769499788366669588
+    second: HouseItems__c4r2_4
+  - first:
+      213: 8391959953359981571
+    second: HouseItems__c4r2_5
+  - first:
+      213: -8534143644993578647
+    second: HouseItems__c4r2_6
+  - first:
+      213: -3007562449939224999
+    second: HouseItems__c4r2_7
+  - first:
+      213: -4744488093773892260
+    second: HouseItems__c4r2_8
+  - first:
+      213: -1805585009675916660
+    second: HouseItems__c4r2_9
+  - first:
+      213: 1176453033106583383
+    second: HouseItems__c4r2_10
+  - first:
+      213: 634227227115030205
+    second: HouseItems__c4r2_11
+  - first:
+      213: -3650656203500926628
+    second: HouseItems__c4r2_12
+  - first:
+      213: 248538319991595192
+    second: HouseItems__c4r2_13
+  - first:
+      213: 2342138020444952499
+    second: HouseItems__c4r2_14
+  - first:
+      213: -1215619321771686195
+    second: HouseItems__c4r2_15
+  - first:
+      213: -7253284959255521444
+    second: HouseItems__c4r2_16
+  - first:
+      213: -3768995243899699864
+    second: HouseItems__c4r2_17
+  - first:
+      213: -1239655708272840016
+    second: HouseItems__c4r2_18
+  - first:
+      213: -1498877603506674348
+    second: HouseItems__c4r2_19
+  - first:
+      213: -6112436193554129435
+    second: HouseItems__c4r2_20
+  - first:
+      213: -8392043246621167962
+    second: HouseItems__c4r2_21
+  - first:
+      213: -3618602992737694683
+    second: HouseItems__c4r2_22
+  - first:
+      213: 7388607297511081581
+    second: HouseItems__c4r2_23
+  - first:
+      213: -4901996428050877754
+    second: HouseItems__c4r2_24
+  - first:
+      213: -7383960679922242138
+    second: HouseItems__c4r2_25
+  - first:
+      213: 4444940433585983152
+    second: HouseItems__c4r2_26
+  - first:
+      213: 5438089761286926360
+    second: HouseItems__c4r2_27
+  - first:
+      213: 7463313877551700194
+    second: HouseItems__c4r2_28
+  - first:
+      213: -2252183345029122920
+    second: HouseItems__c4r2_29
+  - first:
+      213: 4811524733202295767
+    second: HouseItems__c4r2_30
+  - first:
+      213: -3239091183854220801
+    second: HouseItems__c4r2_31
+  - first:
+      213: 5412028805485952752
+    second: HouseItems__c4r2_32
+  - first:
+      213: 8435498544964339450
+    second: HouseItems__c4r2_33
+  - first:
+      213: -5427509468016205266
+    second: HouseItems__c4r2_34
+  - first:
+      213: -3554393289207202952
+    second: HouseItems__c4r2_35
+  - first:
+      213: -6232725813401405239
+    second: HouseItems__c4r2_36
+  - first:
+      213: 4378524842340290639
+    second: HouseItems__c4r2_37
+  - first:
+      213: -5808614904652027420
+    second: HouseItems__c4r2_38
+  - first:
+      213: 499241723859975157
+    second: HouseItems__c4r2_39
+  - first:
+      213: -6610639669744824608
+    second: HouseItems__c4r2_40
+  - first:
+      213: 6292447142988312570
+    second: HouseItems__c4r2_41
+  - first:
+      213: 2926667878976858618
+    second: HouseItems__c4r2_42
+  - first:
+      213: -9025982613478017126
+    second: HouseItems__c4r2_43
+  - first:
+      213: 2234436660360214244
+    second: HouseItems__c4r2_44
+  - first:
+      213: 517591579655171994
+    second: HouseItems__c4r2_45
+  - first:
+      213: 2803352495130927490
+    second: HouseItems__c4r2_46
+  - first:
+      213: 2453324639664846069
+    second: HouseItems__c4r2_47
+  - first:
+      213: 6032465732105816560
+    second: HouseItems__c4r2_48
+  - first:
+      213: 3005193142822085343
+    second: HouseItems__c4r2_49
+  - first:
+      213: 1731790048815867049
+    second: HouseItems__c4r2_50
+  - first:
+      213: 251535613819047439
+    second: HouseItems__c4r2_51
+  - first:
+      213: -9158290704120090202
+    second: HouseItems__c4r2_52
+  - first:
+      213: 297840847894625160
+    second: HouseItems__c4r2_53
+  - first:
+      213: 4274276566971986192
+    second: HouseItems__c4r2_54
+  - first:
+      213: 5328198115691498984
+    second: HouseItems__c4r2_55
+  - first:
+      213: 1196623639585939584
+    second: HouseItems__c4r2_56
+  - first:
+      213: 3536680080722755645
+    second: HouseItems__c4r2_57
+  - first:
+      213: 3752348580497681948
+    second: HouseItems__c4r2_58
+  - first:
+      213: 3967717457382250074
+    second: HouseItems__c4r2_59
+  - first:
+      213: 4627445488033049919
+    second: HouseItems__c4r2_60
+  - first:
+      213: -3042089213657729010
+    second: HouseItems__c4r2_61
+  - first:
+      213: -5060410779435943896
+    second: HouseItems__c4r2_62
+  - first:
+      213: 5981226242188220467
+    second: HouseItems__c4r2_63
+  - first:
+      213: 8107497420379732245
+    second: HouseItems__c4r2_64
+  - first:
+      213: -560922731948645230
+    second: HouseItems__c4r2_65
+  - first:
+      213: 1678445100511140455
+    second: HouseItems__c4r2_66
+  - first:
+      213: 5331727515886158536
+    second: HouseItems__c4r2_67
+  - first:
+      213: 1252862217993130409
+    second: HouseItems__c4r2_68
+  - first:
+      213: -4658072103104849134
+    second: HouseItems__c4r2_69
+  - first:
+      213: -7282013587570714802
+    second: HouseItems__c4r2_70
+  - first:
+      213: 634788170371436386
+    second: HouseItems__c4r2_71
+  - first:
+      213: 2748429288818259703
+    second: HouseItems__c4r2_72
+  - first:
+      213: 9021480612978520262
+    second: HouseItems__c4r2_73
+  - first:
+      213: 738066200516394264
+    second: HouseItems__c4r2_74
+  - first:
+      213: 6348907140017541679
+    second: HouseItems__c4r2_75
+  - first:
+      213: -991480971818533400
+    second: HouseItems__c4r2_76
+  - first:
+      213: -5794150842725355006
+    second: HouseItems__c4r2_77
+  - first:
+      213: 213822902201999967
+    second: HouseItems__c4r2_78
+  - first:
+      213: 4993083279572842229
+    second: HouseItems__c4r2_79
+  - first:
+      213: -535408862351430354
+    second: HouseItems__c4r2_80
+  - first:
+      213: -6367618076475243217
+    second: HouseItems__c4r2_81
+  - first:
+      213: -4349051526337769399
+    second: HouseItems__c4r2_82
+  - first:
+      213: 2628498414700741152
+    second: HouseItems__c4r2_83
+  - first:
+      213: 8899596348230503035
+    second: HouseItems__c4r2_84
+  - first:
+      213: -2285677793414941908
+    second: HouseItems__c4r2_85
+  - first:
+      213: -9038818103818931986
+    second: HouseItems__c4r2_86
+  - first:
+      213: -162385518577508378
+    second: HouseItems__c4r2_87
+  - first:
+      213: -4765677200621316270
+    second: HouseItems__c4r2_88
+  - first:
+      213: 1465996328658078397
+    second: HouseItems__c4r2_89
+  - first:
+      213: 8112959759560292701
+    second: HouseItems__c4r2_90
+  - first:
+      213: -2995107352227302793
+    second: HouseItems__c4r2_91
+  - first:
+      213: 5703533176315064970
+    second: HouseItems__c4r2_92
+  - first:
+      213: -7675177523043294735
+    second: HouseItems__c4r2_93
+  - first:
+      213: -2063046254736799011
+    second: HouseItems__c4r2_94
+  - first:
+      213: -7646573747843264802
+    second: HouseItems__c4r2_95
+  - first:
+      213: -2430720506013798916
+    second: HouseItems__c4r2_96
+  - first:
+      213: -7271525868824333177
+    second: HouseItems__c4r2_97
+  - first:
+      213: 2652348570235488683
+    second: HouseItems__c4r2_98
+  - first:
+      213: 6439358911492611715
+    second: HouseItems__c4r2_99
+  - first:
+      213: 8265312761107287649
+    second: HouseItems__c4r2_100
+  - first:
+      213: 4749583853165796801
+    second: HouseItems__c4r2_101
+  - first:
+      213: 4251671247854784415
+    second: HouseItems__c4r2_102
+  - first:
+      213: 822398977799931945
+    second: HouseItems__c4r2_103
+  - first:
+      213: 1464069129566145848
+    second: HouseItems__c4r2_104
+  - first:
+      213: -2496946903673859607
+    second: HouseItems__c4r2_105
+  - first:
+      213: -652401760180643182
+    second: HouseItems__c4r2_106
+  - first:
+      213: -732154238506614342
+    second: HouseItems__c4r2_107
+  - first:
+      213: 7239718540584396887
+    second: HouseItems__c4r2_108
+  - first:
+      213: -1704676716292837408
+    second: HouseItems__c4r2_109
+  - first:
+      213: 2474651599977387178
+    second: HouseItems__c4r2_110
+  - first:
+      213: -5843302155890518910
+    second: HouseItems__c4r2_111
+  - first:
+      213: -6333600402542321705
+    second: HouseItems__c4r2_112
+  - first:
+      213: -6098103388168271531
+    second: HouseItems__c4r2_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HouseItems__c4r2_00
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 483
+        width: 381
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32f617beb8cfdc408f6b78fc062e077
+      internalID: -1719223392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_01
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 474
+        width: 334
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099612930aedf3642a12b23bb93bd0cc
+      internalID: -787783951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_02
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 499
+        width: 138
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d2a20592a466469b663dd2db19f66
+      internalID: -247826337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_03
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 499
+        width: 140
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d1b0f68faedd0488fc244c0b28bf75
+      internalID: 153341263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_04
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 129
+        width: 269
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51006944cd6e86a4e9caaf61ad885ed4
+      internalID: 997563601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_05
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 112
+        width: 223
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f170a1c5942367c49b06c3e2b717685f
+      internalID: 1490609108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_06
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 65
+        width: 165
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b06d9323b3daf4f8593b0cfc33cd8f
+      internalID: -1454791205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HouseItems__c4r2_07
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 158
+        width: 99
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac11e2058ec38094b8bfc3481cf45496
+      internalID: -2045172140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c36bed001fc6d594897cb41eed3ce867
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HouseItems__c4r2_00: -1719223392
+      HouseItems__c4r2_01: -787783951
+      HouseItems__c4r2_02: -247826337
+      HouseItems__c4r2_03: 153341263
+      HouseItems__c4r2_04: 997563601
+      HouseItems__c4r2_05: 1490609108
+      HouseItems__c4r2_06: -1454791205
+      HouseItems__c4r2_07: -2045172140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

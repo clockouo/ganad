@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 3ce71c0649fd5ea4d9bbbd0f42725027
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5979164892681609214
+    second: LeashStatesFixed__c2r3_0
+  - first:
+      213: 4439403056943390358
+    second: LeashStatesFixed__c2r3_1
+  - first:
+      213: 9038160978970796994
+    second: LeashStatesFixed__c2r3_2
+  - first:
+      213: -4480874152525730817
+    second: LeashStatesFixed__c2r3_3
+  - first:
+      213: 7164650246466511370
+    second: LeashStatesFixed__c2r3_4
+  - first:
+      213: 6984353902106536565
+    second: LeashStatesFixed__c2r3_5
+  - first:
+      213: -2670944278806577120
+    second: LeashStatesFixed__c2r3_6
+  - first:
+      213: -2786162717925441421
+    second: LeashStatesFixed__c2r3_7
+  - first:
+      213: 4369101421191145085
+    second: LeashStatesFixed__c2r3_8
+  - first:
+      213: 374583527594818928
+    second: LeashStatesFixed__c2r3_9
+  - first:
+      213: 4420186202249295049
+    second: LeashStatesFixed__c2r3_10
+  - first:
+      213: -5584445517860572775
+    second: LeashStatesFixed__c2r3_11
+  - first:
+      213: 3480447028381242312
+    second: LeashStatesFixed__c2r3_12
+  - first:
+      213: -8061867793603172229
+    second: LeashStatesFixed__c2r3_13
+  - first:
+      213: -4032414802117717408
+    second: LeashStatesFixed__c2r3_14
+  - first:
+      213: 3791968177413632892
+    second: LeashStatesFixed__c2r3_15
+  - first:
+      213: 7296544397569007858
+    second: LeashStatesFixed__c2r3_16
+  - first:
+      213: 8558691260545787544
+    second: LeashStatesFixed__c2r3_17
+  - first:
+      213: -7119632502086316240
+    second: LeashStatesFixed__c2r3_18
+  - first:
+      213: 5006888352748285931
+    second: LeashStatesFixed__c2r3_19
+  - first:
+      213: 2770554171921523522
+    second: LeashStatesFixed__c2r3_20
+  - first:
+      213: -5178870065462585418
+    second: LeashStatesFixed__c2r3_21
+  - first:
+      213: -7922707168235828809
+    second: LeashStatesFixed__c2r3_22
+  - first:
+      213: 5001502783838159946
+    second: LeashStatesFixed__c2r3_23
+  - first:
+      213: 5226900706790189980
+    second: LeashStatesFixed__c2r3_24
+  - first:
+      213: 8134905132339908227
+    second: LeashStatesFixed__c2r3_25
+  - first:
+      213: -666417771902050883
+    second: LeashStatesFixed__c2r3_26
+  - first:
+      213: -2691056769443755549
+    second: LeashStatesFixed__c2r3_27
+  - first:
+      213: 6762371081287078663
+    second: LeashStatesFixed__c2r3_28
+  - first:
+      213: -4623978444065412759
+    second: LeashStatesFixed__c2r3_29
+  - first:
+      213: -4472800630613200262
+    second: LeashStatesFixed__c2r3_30
+  - first:
+      213: 487277289755813272
+    second: LeashStatesFixed__c2r3_31
+  - first:
+      213: -1299610938840648977
+    second: LeashStatesFixed__c2r3_32
+  - first:
+      213: 4014226873412832019
+    second: LeashStatesFixed__c2r3_33
+  - first:
+      213: 4446463642840393546
+    second: LeashStatesFixed__c2r3_34
+  - first:
+      213: -7202139146194878652
+    second: LeashStatesFixed__c2r3_35
+  - first:
+      213: -7097167541632066859
+    second: LeashStatesFixed__c2r3_36
+  - first:
+      213: -226328605067987912
+    second: LeashStatesFixed__c2r3_37
+  - first:
+      213: -414862520971626233
+    second: LeashStatesFixed__c2r3_38
+  - first:
+      213: 8257085146999471672
+    second: LeashStatesFixed__c2r3_39
+  - first:
+      213: 3623953452122733041
+    second: LeashStatesFixed__c2r3_40
+  - first:
+      213: -9078618506400070835
+    second: LeashStatesFixed__c2r3_41
+  - first:
+      213: -320520714171063650
+    second: LeashStatesFixed__c2r3_42
+  - first:
+      213: 2197455537318087019
+    second: LeashStatesFixed__c2r3_43
+  - first:
+      213: -7945562727158333245
+    second: LeashStatesFixed__c2r3_44
+  - first:
+      213: 4682015911655680952
+    second: LeashStatesFixed__c2r3_45
+  - first:
+      213: 6376680889086123110
+    second: LeashStatesFixed__c2r3_46
+  - first:
+      213: -5122382879358539933
+    second: LeashStatesFixed__c2r3_47
+  - first:
+      213: -6035102625953983533
+    second: LeashStatesFixed__c2r3_48
+  - first:
+      213: -8192137985017008839
+    second: LeashStatesFixed__c2r3_49
+  - first:
+      213: 2488342453546996324
+    second: LeashStatesFixed__c2r3_50
+  - first:
+      213: -6200813520409679358
+    second: LeashStatesFixed__c2r3_51
+  - first:
+      213: -8400036287818195096
+    second: LeashStatesFixed__c2r3_52
+  - first:
+      213: 2965127832742760922
+    second: LeashStatesFixed__c2r3_53
+  - first:
+      213: 3538333953480912352
+    second: LeashStatesFixed__c2r3_54
+  - first:
+      213: 7165465761581135142
+    second: LeashStatesFixed__c2r3_55
+  - first:
+      213: 3850432171780951993
+    second: LeashStatesFixed__c2r3_56
+  - first:
+      213: 3078501953618662202
+    second: LeashStatesFixed__c2r3_57
+  - first:
+      213: 7693567261063544692
+    second: LeashStatesFixed__c2r3_58
+  - first:
+      213: 3474028845337257970
+    second: LeashStatesFixed__c2r3_59
+  - first:
+      213: -6044332853075271549
+    second: LeashStatesFixed__c2r3_60
+  - first:
+      213: -1629033436659536355
+    second: LeashStatesFixed__c2r3_61
+  - first:
+      213: 1144026199666926458
+    second: LeashStatesFixed__c2r3_62
+  - first:
+      213: 6844269122593713257
+    second: LeashStatesFixed__c2r3_63
+  - first:
+      213: 511121437966405897
+    second: LeashStatesFixed__c2r3_64
+  - first:
+      213: 4802115124351613865
+    second: LeashStatesFixed__c2r3_65
+  - first:
+      213: -7661385031197975202
+    second: LeashStatesFixed__c2r3_66
+  - first:
+      213: 7181026633798717959
+    second: LeashStatesFixed__c2r3_67
+  - first:
+      213: 7192320848234545023
+    second: LeashStatesFixed__c2r3_68
+  - first:
+      213: 8468879006144443940
+    second: LeashStatesFixed__c2r3_69
+  - first:
+      213: -1444017346552319188
+    second: LeashStatesFixed__c2r3_70
+  - first:
+      213: -8410867034870539401
+    second: LeashStatesFixed__c2r3_71
+  - first:
+      213: -6953537801230137248
+    second: LeashStatesFixed__c2r3_72
+  - first:
+      213: 5656795981335866052
+    second: LeashStatesFixed__c2r3_73
+  - first:
+      213: -805435293259152737
+    second: LeashStatesFixed__c2r3_74
+  - first:
+      213: -7376165139490789867
+    second: LeashStatesFixed__c2r3_75
+  - first:
+      213: -5043093830452482699
+    second: LeashStatesFixed__c2r3_76
+  - first:
+      213: 332699555056522003
+    second: LeashStatesFixed__c2r3_77
+  - first:
+      213: -4134626072527371529
+    second: LeashStatesFixed__c2r3_78
+  - first:
+      213: 4085488319764936700
+    second: LeashStatesFixed__c2r3_79
+  - first:
+      213: 5447572113270881904
+    second: LeashStatesFixed__c2r3_80
+  - first:
+      213: 6506938187838248342
+    second: LeashStatesFixed__c2r3_81
+  - first:
+      213: -3377117019513470301
+    second: LeashStatesFixed__c2r3_82
+  - first:
+      213: 6049526766154853247
+    second: LeashStatesFixed__c2r3_83
+  - first:
+      213: 1114930236255422895
+    second: LeashStatesFixed__c2r3_84
+  - first:
+      213: -733394101571013547
+    second: LeashStatesFixed__c2r3_85
+  - first:
+      213: 180294430477671038
+    second: LeashStatesFixed__c2r3_86
+  - first:
+      213: 3976989898694886651
+    second: LeashStatesFixed__c2r3_87
+  - first:
+      213: -3454482532991055977
+    second: LeashStatesFixed__c2r3_88
+  - first:
+      213: 6416763125017851324
+    second: LeashStatesFixed__c2r3_89
+  - first:
+      213: 2850252992766496872
+    second: LeashStatesFixed__c2r3_90
+  - first:
+      213: -8084734484384644191
+    second: LeashStatesFixed__c2r3_91
+  - first:
+      213: 3009256441576588546
+    second: LeashStatesFixed__c2r3_92
+  - first:
+      213: -4341794098856132723
+    second: LeashStatesFixed__c2r3_93
+  - first:
+      213: 7471402212071597082
+    second: LeashStatesFixed__c2r3_94
+  - first:
+      213: 5171345882449696483
+    second: LeashStatesFixed__c2r3_95
+  - first:
+      213: -3248330666301666591
+    second: LeashStatesFixed__c2r3_96
+  - first:
+      213: -1538945330374080000
+    second: LeashStatesFixed__c2r3_97
+  - first:
+      213: -1538758217301379071
+    second: LeashStatesFixed__c2r3_98
+  - first:
+      213: -458064327547557350
+    second: LeashStatesFixed__c2r3_99
+  - first:
+      213: -3847229035153599412
+    second: LeashStatesFixed__c2r3_100
+  - first:
+      213: -329675174673023439
+    second: LeashStatesFixed__c2r3_101
+  - first:
+      213: 8973919464923120091
+    second: LeashStatesFixed__c2r3_102
+  - first:
+      213: -3238509345105933190
+    second: LeashStatesFixed__c2r3_103
+  - first:
+      213: 6368708879160543755
+    second: LeashStatesFixed__c2r3_104
+  - first:
+      213: 59276700178981308
+    second: LeashStatesFixed__c2r3_105
+  - first:
+      213: 133748731276326077
+    second: LeashStatesFixed__c2r3_106
+  - first:
+      213: 4320434690592571598
+    second: LeashStatesFixed__c2r3_107
+  - first:
+      213: 7654863217565761360
+    second: LeashStatesFixed__c2r3_108
+  - first:
+      213: 4957522124952230544
+    second: LeashStatesFixed__c2r3_109
+  - first:
+      213: -4284905346430306938
+    second: LeashStatesFixed__c2r3_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_00
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 789
+        width: 653
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22931b1fb535ad54b88c62e93e95a08b
+      internalID: -105994803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_01
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 790
+        width: 653
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09fab09fa30e94488fba94b478ccd4a
+      internalID: 976081693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_02
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 466
+        width: 653
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a903557e4d29741b6913b9bbf9dc6d
+      internalID: -1410947104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_03
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 466
+        width: 653
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ab9aaad38038c469e3c2153ce0dc44
+      internalID: 1994409201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_04
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 654
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1722cc50842764d9cd058e80914f4a
+      internalID: -6549606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeashStatesFixed__c2r3_05
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 122
+        width: 657
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22f1787ebb15b248b0b7c7369af1c83
+      internalID: 769247270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ca012af5cc9a9e47a8b1b2b8b5c32af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LeashStatesFixed__c2r3_00: -105994803
+      LeashStatesFixed__c2r3_01: 976081693
+      LeashStatesFixed__c2r3_02: -1410947104
+      LeashStatesFixed__c2r3_03: 1994409201
+      LeashStatesFixed__c2r3_04: -6549606
+      LeashStatesFixed__c2r3_05: 769247270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

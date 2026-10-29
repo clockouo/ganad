@@ -1,0 +1,32 @@
+# Unity generated files
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]serSettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+**/[Bb]uilds/
+**/[Bb]uild/
+**/.vs/
+**/.document_work/
+**/.codex-work/
+**/tmp/
+
+# Unity and IDE generated project files
+**/*.csproj
+**/*.sln
+**/*.suo
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+
+# Windows metadata
+**/desktop.ini
+Thumbs.db

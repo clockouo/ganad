@@ -1,0 +1,9 @@
+Use case: precise-object-edit
+Asset type: transparent pixel-art sprite pair for the existing Unity side-view game.
+Input image 1: original closed park gate, use its iron bars, dark desaturated teal metal, simple pixel shading and subdued outlines as the exact visual reference.
+Primary request: draw ONLY the two matching iron gate leaves in their OPEN pose, no stone pillars. This is a DOUBLE SWING GATE: left leaf hinged on its outer LEFT vertical edge, right leaf hinged on its outer RIGHT vertical edge. Both have been pushed away from the viewer into the park, rotating about their outer hinges by about 70 degrees. They are mirror-symmetric and their center ends recede into depth, leaving a large transparent passage in the center. Each panel must visibly remain a recognizable narrow iron barred gate with four vertical bars, top and bottom rails, and a small ring handle near its inner end, not a single line.
+Composition: two separated leaves, left at the left quarter and right at the right quarter of the image, same pixel height, outer hinge edges tall and vertical, inner free edges shorter due to perspective, all grounded on the same baseline. Generous transparent center, transparent background and transparent spaces between iron bars.
+Style: low-resolution clean pixel art matching original ironwork. Flat dark muted teal, modest highlights, soft outlines. No new palette, no glow, no smooth airbrush.
+Constraints: exactly TWO equal mirrored gate leaves; no stone pillars, no whole gate across the center; no chain/leash, no debris, no ground, no sky, no text, no characters. Show an opened gate, not a fallen or broken one.
+
+Generated with the built-in image_gen tool; two outer hinges, matching mirrored leaves, transparent background.

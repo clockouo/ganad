@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 4f3cc7fd927630640a30aac096da01a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -625705445595584417
+    second: ParkMemoryVignettes__c2r2_0
+  - first:
+      213: -4304057373037876843
+    second: ParkMemoryVignettes__c2r2_1
+  - first:
+      213: 6915682835813328970
+    second: ParkMemoryVignettes__c2r2_2
+  - first:
+      213: -4748725720010029519
+    second: ParkMemoryVignettes__c2r2_3
+  - first:
+      213: -4966008727988899669
+    second: ParkMemoryVignettes__c2r2_4
+  - first:
+      213: 4389432954301601247
+    second: ParkMemoryVignettes__c2r2_5
+  - first:
+      213: -3089736814098515329
+    second: ParkMemoryVignettes__c2r2_6
+  - first:
+      213: -1551478233054464993
+    second: ParkMemoryVignettes__c2r2_7
+  - first:
+      213: 1502312023909810414
+    second: ParkMemoryVignettes__c2r2_8
+  - first:
+      213: -4788292568741974065
+    second: ParkMemoryVignettes__c2r2_9
+  - first:
+      213: -7070551190399177914
+    second: ParkMemoryVignettes__c2r2_10
+  - first:
+      213: -7129409377965556034
+    second: ParkMemoryVignettes__c2r2_11
+  - first:
+      213: 1952557115122694986
+    second: ParkMemoryVignettes__c2r2_12
+  - first:
+      213: -1712734241279714488
+    second: ParkMemoryVignettes__c2r2_13
+  - first:
+      213: -3971045690813877186
+    second: ParkMemoryVignettes__c2r2_14
+  - first:
+      213: -7274988053564543434
+    second: ParkMemoryVignettes__c2r2_15
+  - first:
+      213: -4837119196638014795
+    second: ParkMemoryVignettes__c2r2_16
+  - first:
+      213: -8662924630813984518
+    second: ParkMemoryVignettes__c2r2_17
+  - first:
+      213: -4018889382923469022
+    second: ParkMemoryVignettes__c2r2_18
+  - first:
+      213: 5902713975901722204
+    second: ParkMemoryVignettes__c2r2_19
+  - first:
+      213: -490484422550673321
+    second: ParkMemoryVignettes__c2r2_20
+  - first:
+      213: 8230159504213289029
+    second: ParkMemoryVignettes__c2r2_21
+  - first:
+      213: -7465941584489383897
+    second: ParkMemoryVignettes__c2r2_22
+  - first:
+      213: -4142030432117008972
+    second: ParkMemoryVignettes__c2r2_23
+  - first:
+      213: -956912693606508710
+    second: ParkMemoryVignettes__c2r2_24
+  - first:
+      213: -5878902347362378529
+    second: ParkMemoryVignettes__c2r2_25
+  - first:
+      213: 2183162884996778687
+    second: ParkMemoryVignettes__c2r2_26
+  - first:
+      213: 5642987170729798661
+    second: ParkMemoryVignettes__c2r2_27
+  - first:
+      213: 850650970745334315
+    second: ParkMemoryVignettes__c2r2_28
+  - first:
+      213: -144836159233643207
+    second: ParkMemoryVignettes__c2r2_29
+  - first:
+      213: 4662283579030084360
+    second: ParkMemoryVignettes__c2r2_30
+  - first:
+      213: -1904548506059346482
+    second: ParkMemoryVignettes__c2r2_31
+  - first:
+      213: -7319008690694259796
+    second: ParkMemoryVignettes__c2r2_32
+  - first:
+      213: 1695217468498433008
+    second: ParkMemoryVignettes__c2r2_33
+  - first:
+      213: 127193966482079891
+    second: ParkMemoryVignettes__c2r2_34
+  - first:
+      213: -4644862157836915874
+    second: ParkMemoryVignettes__c2r2_35
+  - first:
+      213: 5282050028773610307
+    second: ParkMemoryVignettes__c2r2_36
+  - first:
+      213: -7651380899007447986
+    second: ParkMemoryVignettes__c2r2_37
+  - first:
+      213: 1263785780722891468
+    second: ParkMemoryVignettes__c2r2_38
+  - first:
+      213: -7514864408021290991
+    second: ParkMemoryVignettes__c2r2_39
+  - first:
+      213: 6902729427186525507
+    second: ParkMemoryVignettes__c2r2_40
+  - first:
+      213: 2881750490124018880
+    second: ParkMemoryVignettes__c2r2_41
+  - first:
+      213: 3536342618630336902
+    second: ParkMemoryVignettes__c2r2_42
+  - first:
+      213: -1192736326486731959
+    second: ParkMemoryVignettes__c2r2_43
+  - first:
+      213: -2808505197685940128
+    second: ParkMemoryVignettes__c2r2_44
+  - first:
+      213: 6966604831967543807
+    second: ParkMemoryVignettes__c2r2_45
+  - first:
+      213: -8734260580532408475
+    second: ParkMemoryVignettes__c2r2_46
+  - first:
+      213: 6243868138743826291
+    second: ParkMemoryVignettes__c2r2_47
+  - first:
+      213: 6026223840326778908
+    second: ParkMemoryVignettes__c2r2_48
+  - first:
+      213: 1445214680263620808
+    second: ParkMemoryVignettes__c2r2_49
+  - first:
+      213: 611421863180520509
+    second: ParkMemoryVignettes__c2r2_50
+  - first:
+      213: -5810633685519351951
+    second: ParkMemoryVignettes__c2r2_51
+  - first:
+      213: 5701230688289059019
+    second: ParkMemoryVignettes__c2r2_52
+  - first:
+      213: -4174636763226115315
+    second: ParkMemoryVignettes__c2r2_53
+  - first:
+      213: -5403552389221787618
+    second: ParkMemoryVignettes__c2r2_54
+  - first:
+      213: -6913066116458015008
+    second: ParkMemoryVignettes__c2r2_55
+  - first:
+      213: -1122123809937599870
+    second: ParkMemoryVignettes__c2r2_56
+  - first:
+      213: 3245961400875893935
+    second: ParkMemoryVignettes__c2r2_57
+  - first:
+      213: 6136796662106108661
+    second: ParkMemoryVignettes__c2r2_58
+  - first:
+      213: 3894907724423465833
+    second: ParkMemoryVignettes__c2r2_59
+  - first:
+      213: -7269587264953812511
+    second: ParkMemoryVignettes__c2r2_60
+  - first:
+      213: 8405157667689357025
+    second: ParkMemoryVignettes__c2r2_61
+  - first:
+      213: -3372961299491212662
+    second: ParkMemoryVignettes__c2r2_62
+  - first:
+      213: -7954752289469149854
+    second: ParkMemoryVignettes__c2r2_63
+  - first:
+      213: -2711746989391442270
+    second: ParkMemoryVignettes__c2r2_64
+  - first:
+      213: -8301393972752885937
+    second: ParkMemoryVignettes__c2r2_65
+  - first:
+      213: -6510044403966917719
+    second: ParkMemoryVignettes__c2r2_66
+  - first:
+      213: -7787853173630106700
+    second: ParkMemoryVignettes__c2r2_67
+  - first:
+      213: 6139984846079496421
+    second: ParkMemoryVignettes__c2r2_68
+  - first:
+      213: -3986923053400728210
+    second: ParkMemoryVignettes__c2r2_69
+  - first:
+      213: -5521172143782907019
+    second: ParkMemoryVignettes__c2r2_70
+  - first:
+      213: 3140527190999237993
+    second: ParkMemoryVignettes__c2r2_71
+  - first:
+      213: 8386541955035331274
+    second: ParkMemoryVignettes__c2r2_72
+  - first:
+      213: 6666203366325042414
+    second: ParkMemoryVignettes__c2r2_73
+  - first:
+      213: 9191778603068687897
+    second: ParkMemoryVignettes__c2r2_74
+  - first:
+      213: 3712501715922301288
+    second: ParkMemoryVignettes__c2r2_75
+  - first:
+      213: -6879769878709540437
+    second: ParkMemoryVignettes__c2r2_76
+  - first:
+      213: 6091339236497651148
+    second: ParkMemoryVignettes__c2r2_77
+  - first:
+      213: 6172512578174692532
+    second: ParkMemoryVignettes__c2r2_78
+  - first:
+      213: 2682395288214297176
+    second: ParkMemoryVignettes__c2r2_79
+  - first:
+      213: -3985471923261052533
+    second: ParkMemoryVignettes__c2r2_80
+  - first:
+      213: -7769896472186386855
+    second: ParkMemoryVignettes__c2r2_81
+  - first:
+      213: 1945687710937895276
+    second: ParkMemoryVignettes__c2r2_82
+  - first:
+      213: -5600107680922596423
+    second: ParkMemoryVignettes__c2r2_83
+  - first:
+      213: 1151242582588661456
+    second: ParkMemoryVignettes__c2r2_84
+  - first:
+      213: -2351232233329116270
+    second: ParkMemoryVignettes__c2r2_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ParkMemoryVignettes__c2r2_00
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 461
+        width: 482
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e33a28cbc01384c994e97f6a09513c
+      internalID: -1789213064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParkMemoryVignettes__c2r2_01
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 455
+        width: 576
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b3fc632dd63394594eea69941efaee
+      internalID: 1451532124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParkMemoryVignettes__c2r2_02
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 83
+        width: 791
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c722af0b71929e744beb3986af7cd4a4
+      internalID: -476742443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParkMemoryVignettes__c2r2_03
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 84
+        width: 452
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6949ba11d7b992740bb00c90d9eff8a7
+      internalID: -67238570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1b2d7ef66086b684395092e7e121c474
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ParkMemoryVignettes__c2r2_00: -1789213064
+      ParkMemoryVignettes__c2r2_01: 1451532124
+      ParkMemoryVignettes__c2r2_02: -476742443
+      ParkMemoryVignettes__c2r2_03: -67238570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,98 @@
+{
+  "walk": {
+    "name": "걷기",
+    "sheet": "Sheets/walk.png",
+    "frames": 6,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 8,
+    "loop": true,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  },
+  "jump": {
+    "name": "위로 뛰어오르기",
+    "sheet": "Sheets/jump.png",
+    "frames": 4,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 8,
+    "loop": false,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  },
+  "lie_down": {
+    "name": "엎드리기",
+    "sheet": "Sheets/lie_down.png",
+    "frames": 4,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 6,
+    "loop": false,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  },
+  "sit": {
+    "name": "앉기",
+    "sheet": "Sheets/sit.png",
+    "frames": 4,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 6,
+    "loop": false,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  },
+  "bite": {
+    "name": "물기",
+    "sheet": "Sheets/bite.png",
+    "frames": 4,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 8,
+    "loop": false,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  },
+  "bite_pull": {
+    "name": "물고 당기기",
+    "sheet": "Sheets/bite_pull.png",
+    "frames": 4,
+    "cell": [
+      128,
+      128
+    ],
+    "fps": 6,
+    "loop": true,
+    "pivot_normalized": [
+      0.5,
+      0.09375
+    ],
+    "review": "prototype; Unity runtime not tested"
+  }
+}

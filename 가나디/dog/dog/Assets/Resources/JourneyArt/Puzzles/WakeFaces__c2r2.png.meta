@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: ee96bc2856e60134c93511e084cb094a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8168871681967266703
+    second: WakeFaces__c2r2_0
+  - first:
+      213: -428999626829093338
+    second: WakeFaces__c2r2_1
+  - first:
+      213: 2757803033816658667
+    second: WakeFaces__c2r2_2
+  - first:
+      213: -1560624641452408080
+    second: WakeFaces__c2r2_3
+  - first:
+      213: -2356937552444393277
+    second: WakeFaces__c2r2_4
+  - first:
+      213: -1981475802810240998
+    second: WakeFaces__c2r2_5
+  - first:
+      213: 6990065026427843863
+    second: WakeFaces__c2r2_6
+  - first:
+      213: 6147532903563956742
+    second: WakeFaces__c2r2_7
+  - first:
+      213: 8634552707310610276
+    second: WakeFaces__c2r2_8
+  - first:
+      213: 2388725208133939241
+    second: WakeFaces__c2r2_9
+  - first:
+      213: 6249654785465449380
+    second: WakeFaces__c2r2_10
+  - first:
+      213: 8775306123562051707
+    second: WakeFaces__c2r2_11
+  - first:
+      213: 8415241526866380927
+    second: WakeFaces__c2r2_12
+  - first:
+      213: 9116769503521614509
+    second: WakeFaces__c2r2_13
+  - first:
+      213: 1567484888245767659
+    second: WakeFaces__c2r2_14
+  - first:
+      213: -5843850641783875332
+    second: WakeFaces__c2r2_15
+  - first:
+      213: -7848249798755713127
+    second: WakeFaces__c2r2_16
+  - first:
+      213: 2108982573485367735
+    second: WakeFaces__c2r2_17
+  - first:
+      213: 8510974755151825569
+    second: WakeFaces__c2r2_18
+  - first:
+      213: -4286056582327649583
+    second: WakeFaces__c2r2_19
+  - first:
+      213: -7865938966655399429
+    second: WakeFaces__c2r2_20
+  - first:
+      213: 7252834489697737677
+    second: WakeFaces__c2r2_21
+  - first:
+      213: 7774037043095791760
+    second: WakeFaces__c2r2_22
+  - first:
+      213: -676558035229161405
+    second: WakeFaces__c2r2_23
+  - first:
+      213: -2485112970335928278
+    second: WakeFaces__c2r2_24
+  - first:
+      213: -7977717945562138884
+    second: WakeFaces__c2r2_25
+  - first:
+      213: 3644388217043615289
+    second: WakeFaces__c2r2_26
+  - first:
+      213: 2349534666257340345
+    second: WakeFaces__c2r2_27
+  - first:
+      213: -8803757095024817722
+    second: WakeFaces__c2r2_28
+  - first:
+      213: 1605307210711822877
+    second: WakeFaces__c2r2_29
+  - first:
+      213: -6991068713177491467
+    second: WakeFaces__c2r2_30
+  - first:
+      213: -5013595696191093161
+    second: WakeFaces__c2r2_31
+  - first:
+      213: 387952344301854944
+    second: WakeFaces__c2r2_32
+  - first:
+      213: -4308939087741167654
+    second: WakeFaces__c2r2_33
+  - first:
+      213: 3150830036370326841
+    second: WakeFaces__c2r2_34
+  - first:
+      213: 1067832202832577056
+    second: WakeFaces__c2r2_35
+  - first:
+      213: -3813630657951851893
+    second: WakeFaces__c2r2_36
+  - first:
+      213: 5007443315912601317
+    second: WakeFaces__c2r2_37
+  - first:
+      213: -6933660520617841268
+    second: WakeFaces__c2r2_38
+  - first:
+      213: 1164857337312317260
+    second: WakeFaces__c2r2_39
+  - first:
+      213: -877301328104607181
+    second: WakeFaces__c2r2_40
+  - first:
+      213: 1646450784110812822
+    second: WakeFaces__c2r2_41
+  - first:
+      213: 5749361568064879433
+    second: WakeFaces__c2r2_42
+  - first:
+      213: -827363027807850883
+    second: WakeFaces__c2r2_43
+  - first:
+      213: -7686980606739309211
+    second: WakeFaces__c2r2_44
+  - first:
+      213: -2345241096283569687
+    second: WakeFaces__c2r2_45
+  - first:
+      213: 4268444559681764579
+    second: WakeFaces__c2r2_46
+  - first:
+      213: 6354031874205123052
+    second: WakeFaces__c2r2_47
+  - first:
+      213: 3425379429513522920
+    second: WakeFaces__c2r2_48
+  - first:
+      213: -2893117211105030627
+    second: WakeFaces__c2r2_49
+  - first:
+      213: -4646679340924514535
+    second: WakeFaces__c2r2_50
+  - first:
+      213: 6728260793778321050
+    second: WakeFaces__c2r2_51
+  - first:
+      213: -167187106531718671
+    second: WakeFaces__c2r2_52
+  - first:
+      213: 2171808293072155298
+    second: WakeFaces__c2r2_53
+  - first:
+      213: -2193993970220207465
+    second: WakeFaces__c2r2_54
+  - first:
+      213: 6906501650242398120
+    second: WakeFaces__c2r2_55
+  - first:
+      213: -5040461944627388228
+    second: WakeFaces__c2r2_56
+  - first:
+      213: 3472578473374555406
+    second: WakeFaces__c2r2_57
+  - first:
+      213: -8194896185579455705
+    second: WakeFaces__c2r2_58
+  - first:
+      213: -3184916958067429567
+    second: WakeFaces__c2r2_59
+  - first:
+      213: -9161115140251413352
+    second: WakeFaces__c2r2_60
+  - first:
+      213: 3485788696766037084
+    second: WakeFaces__c2r2_61
+  - first:
+      213: 6388444199013363407
+    second: WakeFaces__c2r2_62
+  - first:
+      213: 2149394705239578817
+    second: WakeFaces__c2r2_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WakeFaces__c2r2_00
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 446
+        width: 393
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1665d20348334f4380d79dcc7ceb8fc
+      internalID: -644002721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeFaces__c2r2_01
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 446
+        width: 396
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14424ca5376256b4990badf9d8d07482
+      internalID: -476659650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeFaces__c2r2_02
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 17
+        width: 393
+        height: 397
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08c0dc9f5596304c9dcaaf790d5000e
+      internalID: -346149016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeFaces__c2r2_03
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 17
+        width: 396
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd029d34929354d94e472bcfcd1e68
+      internalID: -1617535227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62c9ab411452820468b2951bff42c6e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WakeFaces__c2r2_00: -644002721
+      WakeFaces__c2r2_01: -476659650
+      WakeFaces__c2r2_02: -346149016
+      WakeFaces__c2r2_03: -1617535227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

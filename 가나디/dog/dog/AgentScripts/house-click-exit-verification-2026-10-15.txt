@@ -1,0 +1,19 @@
+PASS Door clicks before owner departure are rejected
+PASS Walking boundary blocks direct house departure
+PASS Legacy walking exit trigger is inactive
+PASS Old X=0 preparation point no longer releases the owner
+PASS Early arrival waits inside the bathroom for the minimum preparation time
+PASS Owner emerges after minimum preparation time: 3.000604
+PASS Owner stands fully in front of the closed door while petting
+PASS Owner hides after leaving; player remains in the house without a click
+PASS Clicking away from the doorway does not exit
+PASS Old trigger cannot start departure even when invoked
+PASS Door cannot be clicked remotely from across the room
+PASS Clicking the nearby door starts departure once
+PASS Player starts directly outside: X=6.6
+PASS First exterior camera frame excludes house interior: left=5.5
+PASS Repeated clicks cannot duplicate the transition
+PASS Ball remains inside; exterior follow and free controls resume
+PASS Zooming out still excludes house interior: left=5.499999
+Result: PASS
+Final stage: FollowOwner

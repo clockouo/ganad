@@ -1,0 +1,18 @@
+PASS Whole-bed sprite is replaced by separate stationary frame layers
+PASS Legacy closed-door duplicate is hidden
+PASS Bed found by normal nearby-target query
+PASS Bed remains stationary: 9.536743E-07
+PASS Blanket moves and lifts: 0.2399998, 0.1399591
+PASS Bed allows side passage after waking
+PASS Door artwork hierarchy is active while opening
+PASS Door fully opens before owner departure completes
+PASS Open then closed, visible closed hold: 0.5103874
+PASS Rebound follows closed hold: 0.2
+PASS Wake, pet, and departure each run once
+PASS Bed stays fixed through whole house sequence
+PASS Exterior follow targets Player
+PASS Exterior zoom updates live
+PASS Exterior fixed height updates live
+PASS Exterior offset and follow smoothing update live: camera=7.599999, desired=7.6
+Result: PASS
+Final state: FollowOwner, time=19.21374, grounded=True, target=없음

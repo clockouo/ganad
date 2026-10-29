@@ -1,0 +1,8 @@
+Use case: precise-object-edit
+Asset type: transparent pixel-art Unity gate sprite pair.
+Input image 1: the OPEN double iron gate leaves. Edit target, preserve their dark muted teal material, pixels, pointed tips, iron bars, small ring handles, soft outline, equal height, outer hinge vertical posts.
+Primary request: show the SAME TWO matching gate leaves fully CLOSED, seen straight from the front with no perspective narrowing. Each is a simple tall rectangular iron barred panel with top and bottom horizontal rails and four vertical bars, same height and approximately half as wide as it is tall. Left leaf's outer hinge is at its left edge, inner handle at its right edge; mirror the right leaf.
+Composition: the two closed frontal rectangular panels stand upright side by side, equal size, separated by a clear transparent gap for cropping them individually. Both panels feet at exactly the same baseline. Transparent background and transparent spaces between bars.
+Constraints: draw ONLY TWO iron leaves, no stone pillars, no leash, no chain, no debris, no ground, no sky, no text, no glow, no characters. Do not show an open or angled pose. Keep the established pixel-art iron style.
+
+Generated with the built-in image_gen tool; closed frontal matching leaves, transparent background.

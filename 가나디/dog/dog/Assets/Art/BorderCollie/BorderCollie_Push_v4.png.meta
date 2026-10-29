@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 76309c2fdcd7f6d429162d60a54d4ae0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6176558058150519903
+    second: BorderCollie_Push_v4_0
+  - first:
+      213: -568729743792885204
+    second: BorderCollie_Push_v4_1
+  - first:
+      213: -5045480709260828639
+    second: BorderCollie_Push_v4_2
+  - first:
+      213: 755828532695730876
+    second: BorderCollie_Push_v4_3
+  - first:
+      213: 3382599434684046174
+    second: BorderCollie_Push_v4_4
+  - first:
+      213: 3695130310569096288
+    second: BorderCollie_Push_v4_5
+  - first:
+      213: 6569285600429962376
+    second: BorderCollie_Push_v4_6
+  - first:
+      213: 2470192806161402085
+    second: BorderCollie_Push_v4_7
+  - first:
+      213: -6185823911496246387
+    second: BorderCollie_Push_v4_8
+  - first:
+      213: 4879795942642065582
+    second: BorderCollie_Push_v4_9
+  - first:
+      213: -3768024813633774660
+    second: BorderCollie_Push_v4_10
+  - first:
+      213: 5924975517266740471
+    second: BorderCollie_Push_v4_11
+  - first:
+      213: -8868155813425106733
+    second: BorderCollie_Push_v4_12
+  - first:
+      213: 6461380403482308457
+    second: BorderCollie_Push_v4_13
+  - first:
+      213: -4446363217938088115
+    second: BorderCollie_Push_v4_14
+  - first:
+      213: 2522754782225679336
+    second: BorderCollie_Push_v4_15
+  - first:
+      213: 1439724948642191925
+    second: BorderCollie_Push_v4_16
+  - first:
+      213: 3827243372881813217
+    second: BorderCollie_Push_v4_17
+  - first:
+      213: -2838964988191869608
+    second: BorderCollie_Push_v4_18
+  - first:
+      213: 6943108200759034481
+    second: BorderCollie_Push_v4_19
+  - first:
+      213: 3614795696835900316
+    second: BorderCollie_Push_v4_20
+  - first:
+      213: -1359183133001710938
+    second: BorderCollie_Push_v4_21
+  - first:
+      213: -8947862587560424210
+    second: BorderCollie_Push_v4_22
+  - first:
+      213: 177201909860496970
+    second: BorderCollie_Push_v4_23
+  - first:
+      213: -3722748556872533189
+    second: BorderCollie_Push_v4_24
+  - first:
+      213: 8938790246482024862
+    second: BorderCollie_Push_v4_25
+  - first:
+      213: 4356137721136004692
+    second: BorderCollie_Push_v4_26
+  - first:
+      213: 6936677821447731617
+    second: BorderCollie_Push_v4_27
+  - first:
+      213: 4252848256629460109
+    second: BorderCollie_Push_v4_28
+  - first:
+      213: 5083641472283113696
+    second: BorderCollie_Push_v4_29
+  - first:
+      213: 913009733311938742
+    second: BorderCollie_Push_v4_30
+  - first:
+      213: -641137010430632288
+    second: BorderCollie_Push_v4_31
+  - first:
+      213: -5602108082235003951
+    second: BorderCollie_Push_v4_32
+  - first:
+      213: 1793683005371654836
+    second: BorderCollie_Push_v4_33
+  - first:
+      213: 8758058523599021533
+    second: BorderCollie_Push_v4_34
+  - first:
+      213: 4349355007097036335
+    second: BorderCollie_Push_v4_35
+  - first:
+      213: 2797353141280257727
+    second: BorderCollie_Push_v4_36
+  - first:
+      213: -7329258864637436847
+    second: BorderCollie_Push_v4_37
+  - first:
+      213: -7233835966439675500
+    second: BorderCollie_Push_v4_38
+  - first:
+      213: -3585875464510621717
+    second: BorderCollie_Push_v4_39
+  - first:
+      213: 3172705811025026165
+    second: BorderCollie_Push_v4_40
+  - first:
+      213: 748398188676673156
+    second: BorderCollie_Push_v4_41
+  - first:
+      213: -6699546806889648666
+    second: BorderCollie_Push_v4_42
+  - first:
+      213: 5369083643918144508
+    second: BorderCollie_Push_v4_43
+  - first:
+      213: 5129603905733314514
+    second: BorderCollie_Push_v4_44
+  - first:
+      213: 7745086308218083514
+    second: BorderCollie_Push_v4_45
+  - first:
+      213: 5680418838414975229
+    second: BorderCollie_Push_v4_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Push_00
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 562
+        width: 488
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b26d28bb6ca6f54ca979d0221ff58f8
+      internalID: -82506555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push_01
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 561
+        width: 474
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb420e4f90b72bf4c9fb94149d7222bc
+      internalID: 1537318479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push_02
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 561
+        width: 454
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62403ebbc34ee74408553af258350fb9
+      internalID: 1748334759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push_03
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 142
+        width: 488
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6257365fde0c03348a5d78ff135c0d83
+      internalID: 530169970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push_04
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 142
+        width: 459
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff1c81394446a429384db44d69e7d9
+      internalID: 314781554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push_05
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 141
+        width: 473
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59c8ee96594b1c4ca5df038dad3f663
+      internalID: 2087144356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: be6d16cc68b2d0f42abd52aa5960f915
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Push_00: -82506555
+      Push_01: 1537318479
+      Push_02: 1748334759
+      Push_03: 530169970
+      Push_04: 314781554
+      Push_05: 2087144356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
