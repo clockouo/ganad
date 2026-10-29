@@ -35,9 +35,9 @@ public sealed class ParkFountainExploration : MonoBehaviour
     private readonly UnityEngine.UI.Image[] glows = new UnityEngine.UI.Image[4];
     private readonly UnityEngine.UI.Image[] dots = new UnityEngine.UI.Image[4];
     private readonly bool[] visited = new bool[4];
-    private static readonly float[] PointAngles = { -153f, 128f, 37f, -47f };
+    // D follows increasing angles from the left entry; memory order follows this route.
+    private static readonly float[] PointAngles = { -153f, -47f, 37f, 128f };
     private float angle = LeftEntryAngle, memoryOpenedAt;
-    private float orbitDirection = 1f;
     private float sideScrollGroundY;
     private int activeMemory = -1;
     private bool entryArmed = true, savedCameraEnabled;
@@ -101,25 +101,8 @@ public sealed class ParkFountainExploration : MonoBehaviour
     {
         if (Mathf.Abs(horizontal) < .01f) return 0f;
         float previous = angle;
-        float step = Mathf.Min(180f, Mathf.Abs(horizontal) * angularSpeed * Mathf.Max(0f, deltaTime));
-        if (Mathf.Abs(angle) < .0001f)
-        {
-            // At the right end D stops. A continues around the next half of the ring.
-            if (horizontal < 0f) angle = orbitDirection * step;
-        }
-        else if (Mathf.Abs(angle) >= 180f - .0001f)
-        {
-            // At the left end A stops. D continues around the next half of the ring.
-            if (horizontal > 0f) angle = orbitDirection > 0f ? -180f + step : 180f - step;
-        }
-        else if (angle < 0f)
-            angle = Mathf.Clamp(angle + horizontal * angularSpeed * deltaTime, -180f, 0f);
-        else
-            angle = Mathf.Clamp(angle - horizontal * angularSpeed * deltaTime, 0f, 180f);
-
-        float turn = Mathf.DeltaAngle(previous, angle);
-        if (Mathf.Abs(turn) > .0001f) orbitDirection = Mathf.Sign(turn);
-        return turn;
+        angle = Mathf.Repeat(angle + horizontal * angularSpeed * Mathf.Max(0f, deltaTime) + 180f, 360f) - 180f;
+        return Mathf.DeltaAngle(previous, angle);
     }
 
     private void RefreshMemoryMarkers()
@@ -152,7 +135,7 @@ public sealed class ParkFountainExploration : MonoBehaviour
     {
         if (IsOpen || story == null || story.Stage != AfterTheGlowStoryStage.ParkPlaceholder) return;
         Build();
-        IsOpen = true; entryArmed = false; angle = LeftEntryAngle; orbitDirection = 1f;
+        IsOpen = true; entryArmed = false; angle = LeftEntryAngle;
         exitButton.interactable = false;
         sideScrollGroundY = story.player.Body.position.y;
         savedCameraEnabled = story.cameraFollow.enabled;

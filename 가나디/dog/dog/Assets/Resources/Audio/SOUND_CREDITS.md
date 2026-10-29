@@ -1,6 +1,6 @@
 # Audio sources and licenses
 
-As of 2026-10-22, only `AtmosphericEmotionalPiano.mp3` remains in this runtime folder. All sound effects and ambience are temporarily disabled. The other 16 files and their Unity `.meta` files are preserved outside Assets in `AudioSourceBackup/2026-10-22-non-music/`, along with the previous credits file. The table below retains their source records for later reuse; it is not a list of currently playing sounds. The generated door-close sound is also disabled.
+Use **Tools → After the Glow → Audio Connections** to assign clips to story situations. Clips assigned there can have any file name; the runtime also supports the legacy filename-keyed clips in this folder. At the time of this note, only `AtmosphericEmotionalPiano.mp3` is in this folder. The other 16 archived files and their Unity `.meta` files are preserved outside Assets in `AudioSourceBackup/2026-10-22-non-music/`, along with the previous credits file. The table below records their source details for reuse. The generated door-close sound remains disabled.
 
 Pixabay clips were recorded under the Pixabay Content License; OpenGameArt clips marked CC0 were recorded as public domain. The short note beside each file identifies its source.
 

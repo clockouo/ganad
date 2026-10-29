@@ -18,14 +18,7 @@ public sealed class GameAudioManager : MonoBehaviour
     private const string EffectsPref = "AfterTheGlow.Audio.Effects";
     private static GameAudioManager instance;
 
-    // Temporarily keep only music. Archived SFX and their previous settings are
-    // recorded in After_the_Glow_Audio_SFX_Plan.docx (2026-10-22).
-    public static bool NonMusicAudioEnabled => false;
-
-    private static readonly string[] ClipKeys =
-    {
-        "AtmosphericEmotionalPiano"
-    };
+    public static bool NonMusicAudioEnabled => true;
 
     private sealed class Voice
     {
@@ -46,6 +39,7 @@ public sealed class GameAudioManager : MonoBehaviour
     private Voice mainAmbience;
     private Voice secondaryAmbience;
     private Voice musicVoice;
+    private GameAudioCueCatalog cueCatalog;
     private float masterVolume = .8f;
     private float backgroundVolume = .6f;
     private float effectsVolume = .8f;
@@ -84,19 +78,23 @@ public sealed class GameAudioManager : MonoBehaviour
         masterVolume = Mathf.Clamp01(PlayerPrefs.GetFloat(MasterPref, .8f));
         backgroundVolume = Mathf.Clamp01(PlayerPrefs.GetFloat(BackgroundPref, .6f));
         effectsVolume = Mathf.Clamp01(PlayerPrefs.GetFloat(EffectsPref, .8f));
+        cueCatalog = Resources.Load<GameAudioCueCatalog>("Audio/GameAudioCatalog");
 
-        foreach (string key in ClipKeys)
+        // Any AudioClip placed in Resources/Audio is available by its file name.
+        // This lets sound replacements be added without editing this script.
+        foreach (AudioClip clip in Resources.LoadAll<AudioClip>("Audio"))
         {
-            AudioClip clip = Resources.Load<AudioClip>("Audio/" + key);
-            if (clip != null)
+            if (clip == null)
+                continue;
+
+            if (clips.ContainsKey(clip.name))
             {
-                clip.LoadAudioData();
-                clips[key] = clip;
+                Debug.LogWarning("Duplicate game audio clip name; keep one file named " + clip.name, this);
+                continue;
             }
-            else
-            {
-                Debug.LogWarning("Missing game audio clip: Resources/Audio/" + key, this);
-            }
+
+            clip.LoadAudioData();
+            clips[clip.name] = clip;
         }
 
         if (NonMusicAudioEnabled)
@@ -169,6 +167,8 @@ public sealed class GameAudioManager : MonoBehaviour
 
     public AudioClip GetClip(string key)
     {
+        if (cueCatalog != null && cueCatalog.TryGetClip(key, out AudioClip assigned) && assigned != null)
+            return assigned;
         return !string.IsNullOrEmpty(key) && clips.TryGetValue(key, out AudioClip clip) ? clip : null;
     }
 

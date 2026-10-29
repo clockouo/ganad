@@ -239,6 +239,22 @@
       "prompt": "STYLE: strictly simple low resolution pixel art matching reference, large block shapes, limited flat sage/teal/navy/cream/tan/terracotta colors, no gradients, no texture, no realistic shading, no fur/hair detail, no captions or labels or grid lines. Consistent cream dog, ONE tan ear/eye patch, red collar in present scenes; owner short navy simple hair, teal shirt, navy pants, tan shoes. Actual Unity 2D game art, not a poster.\nTransparent sheet EXACT2x2 equal cells, same owner FRONT FACE lying on back viewed above, head ears neck small teal shoulders ONLY. Row1 peacefully sleeping eyes shut; eyebrow twitch eyes shut. Row2 one eye half open sleepy; both eyes open gentle tiny smile. SAME head proportions, position, hair silhouette across frames. Simple few navy hair locks not square helmet, no pillow blanket bed UI. Complete head centered margin15%."
     },
     {
+      "file": "Puzzles/PettingDogPoses__c3r2.png",
+      "cols": 3,
+      "rows": 2,
+      "alpha": true,
+      "names": [
+        "neutral",
+        "lean_right",
+        "lean_left",
+        "paw_up",
+        "happy",
+        "blank"
+      ],
+      "splitX": 0,
+      "prompt": "Transparent 3x2 pixel-art atlas of five ordered petting reactions for the same cream dog with tan patch, floppy ears, navy features, red collar, and short forehead tuft. Cells 1-5: neutral, right lean, left lean, raised paw, happy closed eyes. Cell 6 empty. No background, UI, cursor, red arrows, or text."
+    },
+    {
       "file": "Puzzles/PetDog__c2r2.png",
       "cols": 2,
       "rows": 2,

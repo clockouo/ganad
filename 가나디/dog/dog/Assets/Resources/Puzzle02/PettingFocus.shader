@@ -5,6 +5,7 @@ Shader "AfterTheGlow/PettingFocus"
         [PerRendererData] _MainTex ("Texture", 2D) = "white" {}
         _BlurPixels ("Blur in source pixels", Range(0, 64)) = 0
         _Cutout ("Cutout fringe threshold", Range(0, 1)) = 0
+        _SampleRect ("Texture sample bounds", Vector) = (0, 0, 1, 1)
     }
     SubShader
     {
@@ -25,10 +26,11 @@ Shader "AfterTheGlow/PettingFocus"
             float4 _MainTex_TexelSize;
             float _BlurPixels;
             float _Cutout;
+            float4 _SampleRect;
             float4 _ClipRect;
             fixed4 SampleLayer(float2 uv)
             {
-                fixed4 color = tex2D(_MainTex, saturate(uv));
+                fixed4 color = tex2D(_MainTex, clamp(uv, _SampleRect.xy, _SampleRect.zw));
                 if (color.a < _Cutout) color = 0;
                 else if (_Cutout > 0) color.a = 1;
                 return color;

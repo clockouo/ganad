@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 /// <summary>
 /// Minimal development-only status display for the phase-one testbed.
@@ -15,8 +16,16 @@ public sealed class CoreDebugOverlay : MonoBehaviour
     [SerializeField] private bool visibleAtStart = true;
     [SerializeField] private KeyCode toggleKey = KeyCode.F1;
     [SerializeField] private KeyCode resetKey = KeyCode.R;
+    [SerializeField] private KeyCode commandKey = KeyCode.F12;
 
     private bool visible;
+    private bool commandConsoleVisible;
+    private string commandLine = string.Empty;
+    private string commandFeedback = "명령: skip, speed 2, speed 1";
+    private float baseTimeScale = 1f;
+    private float speedMultiplier = 1f;
+    private float skipUntilUnscaledTime;
+    private float multiplierBeforeSkip = 1f;
     private int completedGoalCount;
     private string lastCompletedGoal = "없음";
     private GUIStyle labelStyle;
@@ -32,6 +41,7 @@ public sealed class CoreDebugOverlay : MonoBehaviour
         if (storyDirector == null)
             storyDirector = FindAnyObjectByType<AfterTheGlowStoryDirector>();
         visible = visibleAtStart;
+        baseTimeScale = Time.timeScale > 0f ? Time.timeScale : 1f;
     }
 
     private void OnEnable()
@@ -42,20 +52,38 @@ public sealed class CoreDebugOverlay : MonoBehaviour
     private void OnDisable()
     {
         GoalTrigger2D.GoalReached -= HandleGoalReached;
+        if (Time.timeScale != baseTimeScale)
+            Time.timeScale = baseTimeScale;
     }
 
     private void Update()
     {
+        bool commandChord = PlayerMovement.IsKeyHeld(KeyCode.LeftControl) &&
+            PlayerMovement.IsKeyHeld(KeyCode.LeftShift);
+        if (commandChord && PlayerMovement.WasKeyPressedThisFrame(commandKey))
+            commandConsoleVisible = !commandConsoleVisible;
+
         if (PlayerMovement.WasKeyPressedThisFrame(toggleKey))
             visible = !visible;
         if (PlayerMovement.WasKeyPressedThisFrame(resetKey))
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        if (skipUntilUnscaledTime > 0f && Time.unscaledTime >= skipUntilUnscaledTime)
+        {
+            speedMultiplier = multiplierBeforeSkip;
+            skipUntilUnscaledTime = 0f;
+            ApplyTimeScale();
+            commandFeedback = "가속 종료 · 배속 x" + speedMultiplier.ToString("0.##");
+        }
     }
 
     private void OnGUI()
     {
         if (!visible)
+        {
+            DrawCommandConsole();
             return;
+        }
 
         if (labelStyle == null)
         {
@@ -120,6 +148,81 @@ public sealed class CoreDebugOverlay : MonoBehaviour
                 labelStyle);
         }
         GUILayout.EndArea();
+
+        DrawCommandConsole();
+    }
+
+    private void DrawCommandConsole()
+    {
+        if (!commandConsoleVisible)
+            return;
+
+        const float width = 390f;
+        const float height = 178f;
+        float x = Mathf.Max(12f, Screen.width - width - 12f);
+        GUI.Box(new Rect(x, 12f, width, height), GUIContent.none);
+        GUILayout.BeginArea(new Rect(x + 12f, 18f, width - 24f, height - 12f));
+        GUILayout.Label("개발 커맨드 · Ctrl+Shift+F12", labelStyle ?? GUI.skin.label);
+        GUILayout.Label(commandFeedback, labelStyle ?? GUI.skin.label);
+        GUILayout.BeginHorizontal();
+        commandLine = GUILayout.TextField(commandLine, 36);
+        if (GUILayout.Button("실행", GUILayout.Width(58f)) ||
+            (Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.Return))
+        {
+            ExecuteCommand(commandLine);
+            commandLine = string.Empty;
+            GUI.FocusControl(string.Empty);
+        }
+        GUILayout.EndHorizontal();
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Skip · 2초 가속")) ExecuteCommand("skip");
+        if (GUILayout.Button("x2")) ExecuteCommand("speed 2");
+        if (GUILayout.Button("x3")) ExecuteCommand("speed 3");
+        if (GUILayout.Button("정상 속도")) ExecuteCommand("speed 1");
+        GUILayout.EndHorizontal();
+        GUILayout.EndArea();
+    }
+
+    private void ExecuteCommand(string rawCommand)
+    {
+        if (string.IsNullOrWhiteSpace(rawCommand))
+            return;
+
+        string[] parts = rawCommand.Trim().Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+        string command = parts[0].TrimStart('/').ToLowerInvariant();
+        if (command == "skip")
+        {
+            multiplierBeforeSkip = speedMultiplier;
+            speedMultiplier = Mathf.Max(speedMultiplier, 8f);
+            skipUntilUnscaledTime = Time.unscaledTime + 2f;
+            ApplyTimeScale();
+            commandFeedback = "현재 연출을 빠르게 진행 중 · 2초 후 복귀";
+            return;
+        }
+
+        if (command == "speed" && parts.Length == 2 &&
+            float.TryParse(parts[1], System.Globalization.NumberStyles.Float,
+                System.Globalization.CultureInfo.InvariantCulture, out float requestedSpeed))
+        {
+            speedMultiplier = Mathf.Clamp(requestedSpeed, 0.25f, 4f);
+            skipUntilUnscaledTime = 0f;
+            ApplyTimeScale();
+            commandFeedback = "배속 x" + speedMultiplier.ToString("0.##");
+            return;
+        }
+
+        commandFeedback = "사용법: skip, speed 1, speed 2, speed 3";
+    }
+
+    private void ApplyTimeScale()
+    {
+        Time.timeScale = baseTimeScale * speedMultiplier;
+    }
+
+    private void OnDestroy()
+    {
+        if (Time.timeScale != baseTimeScale)
+            Time.timeScale = baseTimeScale;
     }
 
     private void HandleGoalReached(GoalTrigger2D goal, PlayerMovement _)

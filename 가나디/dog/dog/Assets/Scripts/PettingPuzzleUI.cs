@@ -16,16 +16,16 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
     public float BlurPixels => portraitMaterial != null ? portraitMaterial.GetFloat("_BlurPixels") : 0f;
     public RectTransform PortraitRect => portrait != null ? portrait.rectTransform : null;
 
-    private GameObject screen;
-    private UnityEngine.UI.RawImage portrait;
-    private UnityEngine.UI.RawImage backdrop;
+    [SerializeField] private GameObject screen;
+    [SerializeField] private UnityEngine.UI.RawImage portrait;
+    [SerializeField] private UnityEngine.UI.RawImage backdrop;
     [SerializeField] private UnityEngine.UI.Image[] dots = new UnityEngine.UI.Image[4];
     private Material portraitMaterial, backdropMaterial;
     private RenderTexture backdropTexture;
     private Action completed;
     private Coroutine opening;
-    private CanvasGroup screenGroup;
-    private RectTransform content;
+    [SerializeField] private CanvasGroup screenGroup;
+    [SerializeField] private RectTransform content;
     private bool transitioning;
     public bool IsTransitioning => transitioning;
     private float lastX, clearSince = -1f;
@@ -35,158 +35,59 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
     private bool wasInside;
     private readonly Vector3[] corners = new Vector3[4];
     private const int MouseGestureId = int.MinValue + 1;
-    private RectTransform interactionHint;
-    private UnityEngine.UI.Image heldButtonHint;
-    private UnityEngine.UI.RawImage dogLayer;
-    private RectTransform swipeArrow;
+    [SerializeField] private RectTransform interactionHint;
+    [SerializeField] private UnityEngine.UI.Image heldButtonHint;
+    [SerializeField] private UnityEngine.UI.RawImage dogLayer;
+    [SerializeField] private RectTransform swipeArrow;
     private Material dogMaterial;
     private float strokeEnergy, strokeDirection;
     public const float InitialBlurPixels = 10f;
 
-    private void Awake() => Build();
+    private bool viewInitialized;
+    private Vector2 contentRest, dogRest, arrowRest, hintRest;
+    private Quaternion dogRestRotation;
+    private Vector3 dogRestScale;
 
-    private void Build()
+    private void Awake()
     {
-        if (screen != null)
+        InitializeView();
+        Close();
+    }
+
+    private bool InitializeView()
+    {
+        if (viewInitialized) return true;
+        if (screen == null || portrait == null || backdrop == null || dogLayer == null ||
+            screenGroup == null || content == null || swipeArrow == null || interactionHint == null || heldButtonHint == null)
         {
-            for (int i = 0; i < dots.Length; i++)
-                if (dots[i] == null && content != null)
-                    dots[i] = content.Find("Progress " + (i + 1))?.GetComponent<UnityEngine.UI.Image>();
-            return;
+            Debug.LogError("Petting Canvas references are missing. Assign the Canvas in the Inspector.", this);
+            return false;
         }
-        Texture2D art = JourneyArt.Texture("Backgrounds/06_FirstMeetingPark");
-        Texture2D dogArt = JourneyArt.Texture("Puzzles/PetDog__c2r2");
-        Texture2D backgroundArt = art;
-        Shader shader = Resources.Load<Shader>("Puzzle02/PettingFocus");
-        if (art == null || dogArt == null || backgroundArt == null || shader == null)
-            throw new InvalidOperationException("Puzzle02 requires its reference portrait and focus shader.");
-        art.filterMode = FilterMode.Point;
-        art.wrapMode = TextureWrapMode.Clamp;
-        portraitMaterial = new Material(shader);
-        dogMaterial = new Material(shader);
-        dogMaterial.SetFloat("_Cutout", .8f);
-        backdropMaterial = new Material(shader);
-        backdropMaterial.SetFloat("_BlurPixels", 4f);
-
-        screen = new GameObject("Petting Puzzle Canvas", typeof(RectTransform), typeof(Canvas),
-            typeof(UnityEngine.UI.CanvasScaler), typeof(UnityEngine.UI.GraphicRaycaster));
-        screen.transform.SetParent(transform, false);
-        Canvas canvas = screen.GetComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 210;
-        screenGroup = screen.AddComponent<CanvasGroup>();
-        screenGroup.alpha = 0f;
-        var scaler = screen.GetComponent<UnityEngine.UI.CanvasScaler>();
-        scaler.uiScaleMode = UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
-
-        backdrop = Create<UnityEngine.UI.RawImage>("Blurred House", screen.transform);
-        Stretch(backdrop.rectTransform);
-        backdrop.material = backdropMaterial;
-        backdrop.color = new Color(.88f, .91f, .88f, 1f);
-        // Backdrop consumes raycasts, but does not receive petting gestures.
-        backdrop.raycastTarget = true;
-
-        var contentObject = new GameObject("Petting Close-up Content", typeof(RectTransform));
-        contentObject.transform.SetParent(screen.transform, false);
-        content = (RectTransform)contentObject.transform;
-        Stretch(content);
-
-        portrait = Create<UnityEngine.UI.RawImage>("PPT Dog Portrait", content);
-        portrait.texture = backgroundArt;
+        portraitMaterial = new Material(portrait.material);
+        dogMaterial = new Material(dogLayer.material);
+        backdropMaterial = new Material(backdrop.material);
         portrait.material = portraitMaterial;
-        portrait.raycastTarget = true;
-        portrait.rectTransform.anchorMin = new Vector2(.5f, .5f);
-        portrait.rectTransform.anchorMax = new Vector2(.5f, .5f);
-        portrait.rectTransform.sizeDelta = new Vector2(800f, 450f);
-        portrait.rectTransform.anchoredPosition = new Vector2(0f, 16f);
-        // EventTrigger forwards only the portrait's gestures to this component.
-        var trigger = portrait.gameObject.AddComponent<EventTrigger>();
+        dogLayer.material = dogMaterial;
+        backdrop.material = backdropMaterial;
+        contentRest = content.anchoredPosition;
+        dogRest = dogLayer.rectTransform.anchoredPosition;
+        dogRestRotation = dogLayer.rectTransform.localRotation;
+        dogRestScale = dogLayer.rectTransform.localScale;
+        arrowRest = swipeArrow.anchoredPosition;
+        hintRest = interactionHint.anchoredPosition;
+        var trigger = portrait.GetComponent<EventTrigger>();
+        if (trigger == null) trigger = portrait.gameObject.AddComponent<EventTrigger>();
         AddEvent(trigger, EventTriggerType.PointerDown, e => OnPointerDown((PointerEventData)e));
         AddEvent(trigger, EventTriggerType.InitializePotentialDrag, e => OnInitializePotentialDrag((PointerEventData)e));
         AddEvent(trigger, EventTriggerType.Drag, e => OnDrag((PointerEventData)e));
         AddEvent(trigger, EventTriggerType.PointerUp, e => OnPointerUp((PointerEventData)e));
-
-        dogLayer = Create<UnityEngine.UI.RawImage>("Separated Petting Dog", portrait.transform);
-        dogLayer.texture = dogArt;
-        JourneyArt.Set(dogLayer, JourneyArt.Frame("Puzzles/PetDog__c2r2"));
-        dogLayer.material = dogMaterial;
-        dogLayer.raycastTarget = false;
-        Stretch(dogLayer.rectTransform);
-        dogLayer.rectTransform.anchorMin = dogLayer.rectTransform.anchorMax = new Vector2(.5f, .5f);
-        dogLayer.rectTransform.sizeDelta = new Vector2(300f, 300f);
-        dogLayer.rectTransform.anchoredPosition = new Vector2(0f, -65f);
-        dogLayer.rectTransform.pivot = new Vector2(.5f, .15f);
-        BuildSwipeArrow();
-
-        for (int i = 0; i < dots.Length; i++)
-        {
-            dots[i] = Create<UnityEngine.UI.Image>("Progress " + (i + 1), content);
-            dots[i].raycastTarget = false;
-            dots[i].rectTransform.sizeDelta = new Vector2(12f, 12f);
-            dots[i].rectTransform.anchoredPosition = new Vector2((i - 1.5f) * 26f, -221f);
-        }
-        BuildInteractionHint();
-        screen.SetActive(false);
-    }
-
-    private void BuildSwipeArrow()
-    {
-        var root = new GameObject("Independent Petting Arrow", typeof(RectTransform));
-        root.transform.SetParent(content, false);
-        swipeArrow = (RectTransform)root.transform;
-        swipeArrow.sizeDelta = new Vector2(150f, 28f);
-        swipeArrow.anchoredPosition = new Vector2(0f, 175f);
-        var icon = Create<UnityEngine.UI.Image>("Swipe Indicator", swipeArrow);
-        icon.sprite = JourneyArt.Frame("UI/Indicators__c4r2", 5);
-        icon.preserveAspect = true; icon.raycastTarget = false;
-        icon.rectTransform.sizeDelta = new Vector2(150f, 28f);
-    }
-
-    private void ArrowPart(string name, float x, float y, float width, float height, Color color)
-    {
-        var part = Create<UnityEngine.UI.Image>(name, swipeArrow);
-        part.color = color;
-        part.raycastTarget = false;
-        part.rectTransform.sizeDelta = new Vector2(width, height);
-        part.rectTransform.anchoredPosition = new Vector2(x, y);
-    }
-
-    private void BuildInteractionHint()
-    {
-        var plate = Create<UnityEngine.UI.Image>("Petting Interaction Hint", content);
-        plate.sprite = JourneyArt.Frame("UI/CloseupPanel");
-        plate.raycastTarget = false;
-        plate.color = new Color(.07f, .18f, .21f, .9f);
-        interactionHint = plate.rectTransform;
-        interactionHint.sizeDelta = new Vector2(180f, 52f);
-        interactionHint.anchoredPosition = new Vector2(0f, -272f);
-        Color cream = Color.white;
-        heldButtonHint = HintLine("Hold Left Mouse Button", 0, 0, 30, 38, cream);
-        heldButtonHint.sprite = JourneyArt.Frame("UI/Indicators__c4r2", 4);
-        heldButtonHint.preserveAspect = true;
-        foreach (int side in new[] { -1, 1 })
-        {
-            var arrow = HintLine("Swipe Direction " + side, side * 55, 0, 45, 18, cream);
-            arrow.sprite = JourneyArt.Frame("UI/Indicators__c4r2", 5);
-            arrow.preserveAspect = true;
-        }
-    }
-
-    private UnityEngine.UI.Image HintLine(string name, float x, float y, float w, float h, Color color)
-    {
-        var item = Create<UnityEngine.UI.Image>(name, interactionHint);
-        item.color = color;
-        item.raycastTarget = false;
-        item.rectTransform.sizeDelta = new Vector2(w, h);
-        item.rectTransform.anchoredPosition = new Vector2(x, y);
-        return item;
+        viewInitialized = true;
+        return true;
     }
 
     public void Open(Action onCompleted)
     {
-        Build();
+        if (!InitializeView()) return;
         Close();
         completed = onCompleted;
         Progress = DisplayProgress = 0f;
@@ -228,14 +129,13 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
         float time = Time.unscaledTime;
         if (transitioning) return;
         strokeEnergy = Mathf.MoveTowards(strokeEnergy, 0f, Time.unscaledDeltaTime * 2.5f);
-        swipeArrow.anchoredPosition = new Vector2(Mathf.Sin(time * 2.4f) * 12f, 175f);
+        swipeArrow.anchoredPosition = arrowRest + new Vector2(Mathf.Sin(time * 2.4f) * 12f, 0f);
         // Keep the card and hit region still; only the separated puppy reacts.
-        dogLayer.rectTransform.anchoredPosition = new Vector2(strokeDirection * strokeEnergy * 7f,
-            -65f + Mathf.Sin(time * 1.8f) * 1.5f + Mathf.Sin(time * 12f) * strokeEnergy * 3f);
-        JourneyArt.Set(dogLayer, JourneyArt.Frame("Puzzles/PetDog__c2r2", Mathf.Min(3, Mathf.FloorToInt(DisplayProgress * 4f))));
-        dogLayer.rectTransform.localRotation = Quaternion.Euler(0f, 0f, -strokeDirection * strokeEnergy * 2.2f);
-        dogLayer.rectTransform.localScale = Vector3.one * (1f + strokeEnergy * .012f);
-        interactionHint.anchoredPosition = new Vector2(Mathf.Sin(Time.unscaledTime * 2.4f) * 9f, -272f);
+        dogLayer.rectTransform.anchoredPosition = dogRest + new Vector2(strokeDirection * strokeEnergy * 7f,
+            Mathf.Sin(time * 1.8f) * 1.5f + Mathf.Sin(time * 12f) * strokeEnergy * 3f);
+        dogLayer.rectTransform.localRotation = dogRestRotation * Quaternion.Euler(0f, 0f, -strokeDirection * strokeEnergy * 2.2f);
+        dogLayer.rectTransform.localScale = dogRestScale * (1f + strokeEnergy * .012f);
+        interactionHint.anchoredPosition = hintRest + new Vector2(Mathf.Sin(Time.unscaledTime * 2.4f) * 9f, 0f);
         var hintColor = heldButtonHint.color;
         hintColor.a = .65f + Mathf.Sin(Time.unscaledTime * 3f) * .3f;
         heldButtonHint.color = hintColor;
@@ -264,8 +164,17 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
         if (portrait == null || portrait.texture == null || portraitMaterial == null) return;
         portrait.texture.filterMode = DisplayProgress < 1f ? FilterMode.Bilinear : FilterMode.Point;
         portraitMaterial.SetFloat("_BlurPixels", InitialBlurPixels * portrait.texture.width / 475f * (1f - DisplayProgress));
+        // Read the five occupied grid cells directly. Imported automatic slices
+        // include tiny alpha fragments and are not the pose frames.
+        int pose = Mathf.Clamp(Mathf.FloorToInt(DisplayProgress * 5f), 0, 4);
+        Rect poseUV = new Rect((pose % 3) / 3f, (1 - pose / 3) / 2f, 1f / 3f, .5f);
+        dogLayer.uvRect = poseUV;
+        float insetX = .5f / dogLayer.texture.width;
+        float insetY = .5f / dogLayer.texture.height;
+        dogMaterial.SetVector("_SampleRect", new Vector4(poseUV.xMin + insetX, poseUV.yMin + insetY,
+            poseUV.xMax - insetX, poseUV.yMax - insetY));
         dogLayer.texture.filterMode = DisplayProgress < 1f ? FilterMode.Bilinear : FilterMode.Point;
-        dogMaterial.SetFloat("_BlurPixels", InitialBlurPixels * dogLayer.texture.width / 475f * (1f - DisplayProgress));
+        dogMaterial.SetFloat("_BlurPixels", InitialBlurPixels * (dogLayer.texture.width / 3f) / 475f * (1f - DisplayProgress));
         for (int i = 0; i < dots.Length; i++)
             if (dots[i] != null) dots[i].color = DisplayProgress >= (i + 1) / 4f ? new Color(.98f, .9f, .68f) : new Color(.11f, .24f, .28f);
     }
@@ -365,7 +274,7 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
         if (opening != null) { StopCoroutine(opening); opening = null; }
         IsOpen = dragging = false;
         transitioning = false;
-        if (content != null) content.anchoredPosition = Vector2.zero;
+        if (content != null) content.anchoredPosition = contentRest;
         if (screenGroup != null) screenGroup.alpha = 0f;
         pointerId = int.MinValue;
         completed = null;
@@ -382,17 +291,6 @@ public sealed class PettingPuzzleUI : MonoBehaviour, IPointerDownHandler, IDragH
         if (backdropMaterial != null) Destroy(backdropMaterial);
     }
 
-    private static T Create<T>(string name, Transform parent) where T : Component
-    {
-        var item = new GameObject(name, typeof(RectTransform), typeof(T));
-        item.transform.SetParent(parent, false);
-        return item.GetComponent<T>();
-    }
-    private static void Stretch(RectTransform rect)
-    {
-        rect.anchorMin = Vector2.zero; rect.anchorMax = Vector2.one;
-        rect.offsetMin = rect.offsetMax = Vector2.zero;
-    }
     private static void AddEvent(EventTrigger trigger, EventTriggerType type, Action<BaseEventData> action)
     {
         var entry = new EventTrigger.Entry { eventID = type };
